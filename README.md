@@ -8,5 +8,7 @@ It is intended that the transmitter will have a micro HDMI input for HD cameras 
 The project will offer a PCB design, software, documentation and BOM for both the transmitter and receiver.
 
 Project discussion here: http://www.rcgroups.com/forums/showthread.php?t=2757068
+
 Flow diagram here: https://www.gliffy.com/go/share/spe1rcfmkb62mx86jto4
+
 OFDM Information here: https://en.wikipedia.org/wiki/Orthogonal_frequency-division_multiplexing
