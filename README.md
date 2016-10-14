@@ -9,7 +9,7 @@ As the project matures, I'm hopeful that the COFDM bandwidth can be changed on t
 
 The project will offer a PCB design, software, documentation and BOM for both the transmitter and receiver modules.
 
-https://www.gliffy.com/go/share/image/s7h90qlt4c0menexgwjk.png?utm_medium=live-embed&utm_source=custom
+<img src=https://www.gliffy.com/go/share/image/s7h90qlt4c0menexgwjk.png?utm_medium=live-embed&utm_source=custom/>
 
 Project discussion here: http://www.rcgroups.com/forums/showthread.php?t=2757068
 
