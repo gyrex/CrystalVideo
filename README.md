@@ -1,5 +1,5 @@
 # CrystalVideo
-1.3GHz HD Digital Video Distribution Project for FPV
+HD Digital Video Distribution Open Source Project for FPV
 
 This is a hardware and software open source project to design a full HD system for FPV. Initially, this project will deliver an HD video stream over the 1.3GHz spectrum using a combination of H.264 encoding into a COFDM broadcast stream. The design can easily be modified to use different spectrums such as 2.4GHz or 5.8GHz. This would be a simple change of the LO, RF mixer and RF amplifier components on the PCB.
 
