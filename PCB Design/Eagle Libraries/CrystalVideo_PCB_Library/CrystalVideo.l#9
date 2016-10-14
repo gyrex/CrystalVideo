@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -423,7 +423,8 @@ Quad Flat No-Lead (QFN), 0.40 mm pitch; square, 16 pin X 16 pin, 8.00 mm L X 8.0
 <text x="-3.81" y="5.08" size="0.6096" layer="51" font="vector" ratio="10">&gt;IT9518</text>
 </package>
 <package name="QFN48P50_IT9130">
-<description>Quad Flat No-Lead (QFN), 0.50 mm pitch; square, 12 pin X 12 pin, 7.00 mm L X 7.00 mm W X 0.90 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<description>ITE IT9133
+&lt;p&gt;Quad Flat No-Lead (QFN), 0.50 mm pitch; square, 12 pin X 12 pin, 7.00 mm L X 7.00 mm W X 0.90 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
 <smd name="1" x="-2.75" y="-3.435" dx="0.86" dy="0.26" layer="1" roundness="54" rot="R270"/>
 <smd name="2" x="-2.25" y="-3.435" dx="0.86" dy="0.26" layer="1" roundness="54" rot="R270"/>
 <smd name="3" x="-1.75" y="-3.435" dx="0.86" dy="0.26" layer="1" roundness="54" rot="R270"/>
@@ -862,10 +863,11 @@ COFDM SOC modulator</description>
 </devices>
 </deviceset>
 <deviceset name="IT9133">
+<description>ITE IT9133 COFDM Demodulation SOC</description>
 <gates>
 </gates>
 <devices>
-<device name="">
+<device name="" package="QFN48P50_IT9130">
 <technologies>
 <technology name=""/>
 </technologies>

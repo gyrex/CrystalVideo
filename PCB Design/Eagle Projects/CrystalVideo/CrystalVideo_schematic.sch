@@ -452,13 +452,13 @@ Quad Flat No-Lead (QFN), 0.40 mm pitch; square, 16 pin X 16 pin, 8.00 mm L X 8.0
 <pin name="GPIOH2" x="-17.78" y="-35.56" length="middle" rot="R90"/>
 <pin name="GPIOH3" x="-15.24" y="-35.56" length="middle" rot="R90"/>
 <pin name="GPIOH4" x="-12.7" y="-35.56" length="middle" rot="R90"/>
-<pin name="VCC3V(1)" x="-10.16" y="-35.56" length="middle" rot="R90"/>
-<pin name="VCC" x="-7.62" y="-35.56" length="middle" rot="R90"/>
+<pin name="VCC3V_1" x="-10.16" y="-35.56" length="middle" rot="R90"/>
+<pin name="VCC_1" x="-7.62" y="-35.56" length="middle" rot="R90"/>
 <pin name="GPIOH5" x="-5.08" y="-35.56" length="middle" rot="R90"/>
 <pin name="GPIOH6" x="-2.54" y="-35.56" length="middle" rot="R90"/>
 <pin name="GPIOH7" x="0" y="-35.56" length="middle" rot="R90"/>
 <pin name="GPIOH8" x="2.54" y="-35.56" length="middle" rot="R90"/>
-<pin name="VCC3V(2)" x="5.08" y="-35.56" length="middle" rot="R90"/>
+<pin name="VCC3V_2" x="5.08" y="-35.56" length="middle" rot="R90"/>
 <pin name="HOST_B0" x="7.62" y="-35.56" length="middle" rot="R90"/>
 <pin name="HOST_B1" x="10.16" y="-35.56" length="middle" rot="R90"/>
 <pin name="HOST_B2" x="12.7" y="-35.56" length="middle" rot="R90"/>
@@ -466,8 +466,8 @@ Quad Flat No-Lead (QFN), 0.40 mm pitch; square, 16 pin X 16 pin, 8.00 mm L X 8.0
 <pin name="HOST_B4" x="17.78" y="-35.56" length="middle" rot="R90"/>
 <pin name="HOST_B5" x="35.56" y="-20.32" length="middle" rot="R180"/>
 <pin name="BOND" x="35.56" y="-17.78" length="middle" rot="R180"/>
-<pin name="VCC3V(3)" x="35.56" y="-15.24" length="middle" rot="R180"/>
-<pin name="VCC(2)" x="35.56" y="-12.7" length="middle" rot="R180"/>
+<pin name="VCC3V_3" x="35.56" y="-15.24" length="middle" rot="R180"/>
+<pin name="VCC_2" x="35.56" y="-12.7" length="middle" rot="R180"/>
 <pin name="HOST_B6" x="35.56" y="-10.16" length="middle" rot="R180"/>
 <pin name="HOST_B7" x="35.56" y="-7.62" length="middle" rot="R180"/>
 <pin name="HOST_B8" x="35.56" y="-5.08" length="middle" rot="R180"/>
@@ -479,11 +479,11 @@ Quad Flat No-Lead (QFN), 0.40 mm pitch; square, 16 pin X 16 pin, 8.00 mm L X 8.0
 <pin name="DM" x="35.56" y="10.16" length="middle" rot="R180"/>
 <pin name="IOSDA" x="35.56" y="12.7" length="middle" rot="R180"/>
 <pin name="IOSCL" x="35.56" y="15.24" length="middle" rot="R180"/>
-<pin name="VCC3V(4)" x="35.56" y="17.78" length="middle" rot="R180"/>
+<pin name="VCC3V_4" x="35.56" y="17.78" length="middle" rot="R180"/>
 <pin name="IOTUNSCL" x="17.78" y="35.56" length="middle" rot="R270"/>
 <pin name="IOTUNSDA" x="15.24" y="35.56" length="middle" rot="R270"/>
-<pin name="VCC3V(5)" x="12.7" y="35.56" length="middle" rot="R270"/>
-<pin name="VCC(3)" x="10.16" y="35.56" length="middle" rot="R270"/>
+<pin name="VCC3V_5" x="12.7" y="35.56" length="middle" rot="R270"/>
+<pin name="VCC_3" x="10.16" y="35.56" length="middle" rot="R270"/>
 <pin name="RESETN" x="7.62" y="35.56" length="middle" rot="R270"/>
 <pin name="TESTMODE" x="5.08" y="35.56" length="middle" rot="R270"/>
 <pin name="CKO" x="2.54" y="35.56" length="middle" rot="R270"/>
@@ -550,14 +550,14 @@ COFDM SOC modulator</description>
 <connect gate="G$1" pin="SADC_INN" pad="13"/>
 <connect gate="G$1" pin="SADC_INP" pad="12"/>
 <connect gate="G$1" pin="TESTMODE" pad="54"/>
-<connect gate="G$1" pin="VCC" pad="22"/>
-<connect gate="G$1" pin="VCC(2)" pad="36"/>
-<connect gate="G$1" pin="VCC(3)" pad="52"/>
-<connect gate="G$1" pin="VCC3V(1)" pad="21"/>
-<connect gate="G$1" pin="VCC3V(2)" pad="27"/>
-<connect gate="G$1" pin="VCC3V(3)" pad="35"/>
-<connect gate="G$1" pin="VCC3V(4)" pad="48"/>
-<connect gate="G$1" pin="VCC3V(5)" pad="51"/>
+<connect gate="G$1" pin="VCC3V_1" pad="21"/>
+<connect gate="G$1" pin="VCC3V_2" pad="27"/>
+<connect gate="G$1" pin="VCC3V_3" pad="35"/>
+<connect gate="G$1" pin="VCC3V_4" pad="48"/>
+<connect gate="G$1" pin="VCC3V_5" pad="51"/>
+<connect gate="G$1" pin="VCC_1" pad="22"/>
+<connect gate="G$1" pin="VCC_2" pad="36"/>
+<connect gate="G$1" pin="VCC_3" pad="52"/>
 <connect gate="G$1" pin="VDDB_DAC" pad="9"/>
 <connect gate="G$1" pin="VDDH_MX" pad="64"/>
 <connect gate="G$1" pin="VDDH_REG1" pad="60"/>
@@ -599,7 +599,7 @@ COFDM SOC modulator</description>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="66.04" y="45.72"/>
+<instance part="U$1" gate="G$1" x="73.66" y="43.18"/>
 </instances>
 <busses>
 </busses>
