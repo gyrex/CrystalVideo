@@ -7,6 +7,7 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="/Applications/EAGLE-7.7.0/lbr/19inch.lbr"
 UsedLibrary="/Applications/EAGLE-7.7.0/lbr/40xx.lbr"
 UsedLibrary="/Applications/EAGLE-7.7.0/lbr/41xx.lbr"
 UsedLibrary="/Applications/EAGLE-7.7.0/lbr/45xx.lbr"
@@ -348,14 +349,13 @@ UsedLibrary="/Applications/EAGLE-7.7.0/lbr/zetex.lbr"
 UsedLibrary="/Applications/EAGLE-7.7.0/lbr/zilog.lbr"
 UsedLibrary="/Volumes/Internal SD/Downloads/Molex_Library/Molex_By_element14_Batch_1.lbr"
 UsedLibrary="/Applications/EAGLE-7.7.0/lbr/MyLibrary.old"
-UsedLibrary="/Users/johnpark/Google Drive/Synced/Documents/PCB Design/Eagle Libraries/CrystalVideo_PCB_Library/CrystalVideo.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="179 96 913 782"
+Loc="311 121 1045 807"
 State=2
 Number=0
 
 [Desktop]
-Screen="640 480"
+Screen="1440 900"
 Window="Win_1"
