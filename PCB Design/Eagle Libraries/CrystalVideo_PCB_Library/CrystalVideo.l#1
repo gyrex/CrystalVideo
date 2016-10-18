@@ -38,8 +38,8 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -1653,6 +1653,53 @@ Quad Flat No-Lead (QFN), 0.40 mm pitch; square, 16 pin X 16 pin, 8.00 mm L X 8.0
 <text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
+<package name="HDMI_MOLEX">
+<description>Molex HDMI surface mount connector
+&lt;br&gt;Molex Part: 0471510001
+&lt;br&gt;http://www.molex.com/pdm_docs/sd/471510001_sd.pdf</description>
+<smd name="FID19" x="-4.5" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID18" x="-4" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID17" x="-3.5" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID16" x="-3" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID15" x="-2.5" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID14" x="-2" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID13" x="-1.5" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID12" x="-1" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID11" x="-0.5" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID10" x="0" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID9" x="0.5" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID8" x="1" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID7" x="1.5" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID6" x="2" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID5" x="2.5" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID4" x="3" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID3" x="3.5" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID2" x="4" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="FID1" x="4.5" y="4.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<wire x1="-7.25" y1="7.75" x2="7.25" y2="7.75" width="0.127" layer="51"/>
+<wire x1="7.25" y1="7.75" x2="7.25" y2="-4.25" width="0.127" layer="51"/>
+<pad name="FID20" x="-7.25" y="3.75" drill="0.9" diameter="2" shape="long" rot="R90"/>
+<wire x1="-7.75" y1="2.45" x2="-7.75" y2="4.95" width="0.127" layer="46"/>
+<wire x1="-6.75" y1="2.45" x2="-6.75" y2="4.95" width="0.127" layer="46"/>
+<wire x1="-7.75" y1="4.95" x2="-6.75" y2="4.95" width="0.127" layer="46" curve="-136.397181"/>
+<wire x1="-6.75" y1="2.45" x2="-7.75" y2="2.45" width="0.127" layer="46" curve="-136.397181"/>
+<pad name="FID22" x="-7.25" y="-2.25" drill="0.9" diameter="1.5" shape="long" rot="R90"/>
+<wire x1="-7.65" y1="-3.05" x2="-7.65" y2="-1.55" width="0.127" layer="46"/>
+<wire x1="-6.85" y1="-3.05" x2="-6.85" y2="-1.55" width="0.127" layer="46"/>
+<wire x1="-7.65" y1="-1.55" x2="-6.85" y2="-1.55" width="0.127" layer="46" curve="-165.749967"/>
+<wire x1="-6.85" y1="-3.05" x2="-7.65" y2="-3.05" width="0.127" layer="46" curve="-165.749967"/>
+<wire x1="-7.25" y1="7.75" x2="-7.25" y2="-4.75" width="0.127" layer="51"/>
+<pad name="FID21" x="7.25" y="3.75" drill="0.9" diameter="2" shape="long" rot="R90"/>
+<pad name="FID23" x="7.25" y="-2.25" drill="0.9" diameter="1.5" shape="long" rot="R90"/>
+<wire x1="0" y1="-6" x2="0" y2="18" width="0.127" layer="51"/>
+<dimension x1="-7.25" y1="13" x2="7.25" y2="12.5" x3="0" y3="11.25" textsize="1.27" textratio="3" layer="51" dtype="horizontal" width="0.1" precision="1" visible="yes"/>
+<wire x1="5.75" y1="3.75" x2="8.75" y2="3.75" width="0.127" layer="51"/>
+<wire x1="6" y1="-2.25" x2="8.5" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-6" y1="-2.25" x2="-8.5" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-6" y1="3.75" x2="-8.75" y2="3.75" width="0.127" layer="51"/>
+<dimension x1="-8.75" y1="3.75" x2="-11" y2="-2.25" x3="-12.25" y3="0.75" textsize="1.27" textratio="3" layer="51" dtype="vertical" width="0.1" precision="1" visible="yes"/>
+<dimension x1="-8.75" y1="3.75" x2="-9.25" y2="5.75" x3="-10" y3="4.75" textsize="1.27" textratio="3" layer="51" dtype="vertical" width="0.1" precision="1" visible="yes"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IT9518">
@@ -1784,42 +1831,42 @@ Quad Flat No-Lead (QFN), 0.40 mm pitch; square, 16 pin X 16 pin, 8.00 mm L X 8.0
 <text x="-2.54" y="0" size="1.778" layer="94">IT9133</text>
 </symbol>
 <symbol name="IT9919">
-<pin name="AVCC12" x="-60.96" y="40.64" length="middle"/>
-<pin name="PVCC33" x="-60.96" y="38.1" length="middle"/>
-<pin name="APVDD12" x="-60.96" y="35.56" length="middle"/>
-<pin name="XTALOUT" x="-60.96" y="33.02" length="middle"/>
-<pin name="XTALIN" x="-60.96" y="30.48" length="middle"/>
-<pin name="XTALVD33" x="-60.96" y="27.94" length="middle"/>
-<pin name="RAMVDD" x="-60.96" y="25.4" length="middle"/>
-<pin name="GOVDD" x="-60.96" y="22.86" length="middle"/>
-<pin name="GPIO48" x="-60.96" y="20.32" length="middle"/>
-<pin name="GPIO47" x="-60.96" y="17.78" length="middle"/>
-<pin name="GPIO46" x="-60.96" y="15.24" length="middle"/>
-<pin name="GPIO45" x="-60.96" y="12.7" length="middle"/>
-<pin name="GPIO44" x="-60.96" y="10.16" length="middle"/>
-<pin name="GPIO43" x="-60.96" y="7.62" length="middle"/>
-<pin name="GPIO42" x="-60.96" y="5.08" length="middle"/>
-<pin name="GPIO25" x="-60.96" y="2.54" length="middle"/>
-<pin name="IVDD" x="-60.96" y="0" length="middle"/>
-<pin name="MVREF" x="-60.96" y="-2.54" length="middle"/>
-<pin name="GPIO24" x="-60.96" y="-5.08" length="middle"/>
-<pin name="GPIO23" x="-60.96" y="-7.62" length="middle"/>
-<pin name="GPIO22" x="-60.96" y="-10.16" length="middle"/>
-<pin name="GPIO21" x="-60.96" y="-12.7" length="middle"/>
-<pin name="MOVDD" x="-60.96" y="-15.24" length="middle"/>
-<pin name="RAMVSS" x="-60.96" y="-17.78" length="middle"/>
-<pin name="GPIO20" x="-60.96" y="-20.32" length="middle"/>
-<pin name="AMCLK" x="-60.96" y="-22.86" length="middle"/>
-<pin name="RAMVDD_2" x="-60.96" y="-25.4" length="middle"/>
-<pin name="IVDD_2" x="-60.96" y="-27.94" length="middle"/>
-<pin name="RAMVSS_2" x="-60.96" y="-30.48" length="middle"/>
-<pin name="RAMVDD_3" x="-60.96" y="-33.02" length="middle"/>
-<pin name="MOVDD_2" x="-60.96" y="-35.56" length="middle"/>
-<pin name="RAMVSS_3" x="-60.96" y="-38.1" length="middle"/>
-<pin name="RAMVREF" x="-60.96" y="-40.64" length="middle"/>
-<pin name="RAMVDD_4" x="-60.96" y="-43.18" length="middle"/>
-<pin name="RAMVSS_4" x="-60.96" y="-45.72" length="middle"/>
-<pin name="MOVDD_3" x="-60.96" y="-48.26" length="middle"/>
+<pin name="AVCC12" x="-68.58" y="40.64" length="middle"/>
+<pin name="PVCC33" x="-68.58" y="38.1" length="middle"/>
+<pin name="APVDD12" x="-68.58" y="35.56" length="middle"/>
+<pin name="XTALOUT" x="-68.58" y="33.02" length="middle"/>
+<pin name="XTALIN" x="-68.58" y="30.48" length="middle"/>
+<pin name="XTALVD33" x="-68.58" y="27.94" length="middle"/>
+<pin name="RAMVDD" x="-68.58" y="25.4" length="middle"/>
+<pin name="GOVDD" x="-68.58" y="22.86" length="middle"/>
+<pin name="GPIO48" x="-68.58" y="20.32" length="middle"/>
+<pin name="GPIO47" x="-68.58" y="17.78" length="middle"/>
+<pin name="GPIO46" x="-68.58" y="15.24" length="middle"/>
+<pin name="GPIO45" x="-68.58" y="12.7" length="middle"/>
+<pin name="GPIO44" x="-68.58" y="10.16" length="middle"/>
+<pin name="GPIO43" x="-68.58" y="7.62" length="middle"/>
+<pin name="GPIO42" x="-68.58" y="5.08" length="middle"/>
+<pin name="GPIO25" x="-68.58" y="2.54" length="middle"/>
+<pin name="IVDD" x="-68.58" y="0" length="middle"/>
+<pin name="MVREF" x="-68.58" y="-2.54" length="middle"/>
+<pin name="GPIO24" x="-68.58" y="-5.08" length="middle"/>
+<pin name="GPIO23" x="-68.58" y="-7.62" length="middle"/>
+<pin name="GPIO22" x="-68.58" y="-10.16" length="middle"/>
+<pin name="GPIO21" x="-68.58" y="-12.7" length="middle"/>
+<pin name="MOVDD" x="-68.58" y="-15.24" length="middle"/>
+<pin name="RAMVSS" x="-68.58" y="-17.78" length="middle"/>
+<pin name="GPIO20" x="-68.58" y="-20.32" length="middle"/>
+<pin name="AMCLK" x="-68.58" y="-22.86" length="middle"/>
+<pin name="RAMVDD_2" x="-68.58" y="-25.4" length="middle"/>
+<pin name="IVDD_2" x="-68.58" y="-27.94" length="middle"/>
+<pin name="RAMVSS_2" x="-68.58" y="-30.48" length="middle"/>
+<pin name="RAMVDD_3" x="-68.58" y="-33.02" length="middle"/>
+<pin name="MOVDD_2" x="-68.58" y="-35.56" length="middle"/>
+<pin name="RAMVSS_3" x="-68.58" y="-38.1" length="middle"/>
+<pin name="RAMVREF" x="-68.58" y="-40.64" length="middle"/>
+<pin name="RAMVDD_4" x="-68.58" y="-43.18" length="middle"/>
+<pin name="RAMVSS_4" x="-68.58" y="-45.72" length="middle"/>
+<pin name="MOVDD_3" x="-68.58" y="-48.26" length="middle"/>
 <pin name="RAMVDD_5" x="-48.26" y="-60.96" length="middle" rot="R90"/>
 <pin name="RAMVDD_6" x="-45.72" y="-60.96" length="middle" rot="R90"/>
 <pin name="RAMVDD_7" x="-43.18" y="-60.96" length="middle" rot="R90"/>
@@ -1856,82 +1903,107 @@ Quad Flat No-Lead (QFN), 0.40 mm pitch; square, 16 pin X 16 pin, 8.00 mm L X 8.0
 <pin name="GPIO3" x="35.56" y="-60.96" length="middle" rot="R90"/>
 <pin name="GOVDD_3" x="38.1" y="-60.96" length="middle" rot="R90"/>
 <pin name="GPIO4" x="40.64" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO5" x="55.88" y="-48.26" length="middle" rot="R180"/>
-<pin name="VDD_USB" x="55.88" y="-45.72" length="middle" rot="R180"/>
-<pin name="DM0" x="55.88" y="-43.18" length="middle" rot="R180"/>
-<pin name="DP0" x="55.88" y="-40.64" length="middle" rot="R180"/>
-<pin name="DP1" x="55.88" y="-38.1" length="middle" rot="R180"/>
-<pin name="DM1" x="55.88" y="-35.56" length="middle" rot="R180"/>
-<pin name="VDD_USB_2" x="55.88" y="-33.02" length="middle" rot="R180"/>
-<pin name="IVDD_4" x="55.88" y="-30.48" length="middle" rot="R180"/>
-<pin name="VDX" x="55.88" y="-27.94" length="middle" rot="R180"/>
-<pin name="VD0" x="55.88" y="-25.4" length="middle" rot="R180"/>
-<pin name="VD1" x="55.88" y="-22.86" length="middle" rot="R180"/>
-<pin name="VD2" x="55.88" y="-20.32" length="middle" rot="R180"/>
-<pin name="VD3" x="55.88" y="-17.78" length="middle" rot="R180"/>
-<pin name="VD4" x="55.88" y="-15.24" length="middle" rot="R180"/>
-<pin name="VD5" x="55.88" y="-12.7" length="middle" rot="R180"/>
-<pin name="VOVDD" x="55.88" y="-10.16" length="middle" rot="R180"/>
-<pin name="VD6" x="55.88" y="-7.62" length="middle" rot="R180"/>
-<pin name="VD7" x="55.88" y="-5.08" length="middle" rot="R180"/>
-<pin name="VD8" x="55.88" y="-2.54" length="middle" rot="R180"/>
-<pin name="VD9" x="55.88" y="0" length="middle" rot="R180"/>
-<pin name="VD10" x="55.88" y="2.54" length="middle" rot="R180"/>
-<pin name="VD11" x="55.88" y="5.08" length="middle" rot="R180"/>
-<pin name="VD12" x="55.88" y="7.62" length="middle" rot="R180"/>
-<pin name="VD13" x="55.88" y="10.16" length="middle" rot="R180"/>
-<pin name="VD14" x="55.88" y="12.7" length="middle" rot="R180"/>
-<pin name="VD15" x="55.88" y="15.24" length="middle" rot="R180"/>
-<pin name="VD16" x="55.88" y="17.78" length="middle" rot="R180"/>
-<pin name="VD17" x="55.88" y="20.32" length="middle" rot="R180"/>
-<pin name="VOVDD_2" x="55.88" y="22.86" length="middle" rot="R180"/>
-<pin name="VD18" x="55.88" y="25.4" length="middle" rot="R180"/>
-<pin name="VD19" x="55.88" y="27.94" length="middle" rot="R180"/>
-<pin name="VD20" x="55.88" y="30.48" length="middle" rot="R180"/>
-<pin name="VD21" x="55.88" y="33.02" length="middle" rot="R180"/>
-<pin name="VD22" x="55.88" y="35.56" length="middle" rot="R180"/>
-<pin name="VD23" x="55.88" y="38.1" length="middle" rot="R180"/>
-<pin name="VOVDD_3" x="55.88" y="40.64" length="middle" rot="R180"/>
-<pin name="VSYNC" x="40.64" y="55.88" length="middle" rot="R270"/>
-<pin name="HSYNC" x="38.1" y="55.88" length="middle" rot="R270"/>
-<pin name="PMCLK" x="35.56" y="55.88" length="middle" rot="R270"/>
-<pin name="DE" x="33.02" y="55.88" length="middle" rot="R270"/>
-<pin name="IVDD_5" x="30.48" y="55.88" length="middle" rot="R270"/>
-<pin name="ZD3" x="27.94" y="55.88" length="middle" rot="R270"/>
-<pin name="ZD2" x="25.4" y="55.88" length="middle" rot="R270"/>
-<pin name="ZD1" x="22.86" y="55.88" length="middle" rot="R270"/>
-<pin name="ZD0" x="20.32" y="55.88" length="middle" rot="R270"/>
-<pin name="ZCLK" x="17.78" y="55.88" length="middle" rot="R270"/>
-<pin name="ZWS" x="15.24" y="55.88" length="middle" rot="R270"/>
-<pin name="RSTN" x="12.7" y="55.88" length="middle" rot="R270"/>
-<pin name="ENTEST" x="10.16" y="55.88" length="middle" rot="R270"/>
-<pin name="VOVDD_4" x="7.62" y="55.88" length="middle" rot="R270"/>
-<pin name="GPIO13" x="5.08" y="55.88" length="middle" rot="R270"/>
-<pin name="GPIO14" x="2.54" y="55.88" length="middle" rot="R270"/>
-<pin name="GPIO15" x="0" y="55.88" length="middle" rot="R270"/>
-<pin name="GPIO16" x="-2.54" y="55.88" length="middle" rot="R270"/>
-<pin name="GPIO17" x="-5.08" y="55.88" length="middle" rot="R270"/>
-<pin name="GPIO18" x="-7.62" y="55.88" length="middle" rot="R270"/>
-<pin name="GPIO19" x="-10.16" y="55.88" length="middle" rot="R270"/>
-<pin name="IVDD_6" x="-12.7" y="55.88" length="middle" rot="R270"/>
-<pin name="DDCSDA0" x="-15.24" y="55.88" length="middle" rot="R270"/>
-<pin name="DDCSCL0" x="-17.78" y="55.88" length="middle" rot="R270"/>
-<pin name="R0PWR5V" x="-20.32" y="55.88" length="middle" rot="R270"/>
-<pin name="P0_RXCN" x="-22.86" y="55.88" length="middle" rot="R270"/>
-<pin name="P0_RXCP" x="-25.4" y="55.88" length="middle" rot="R270"/>
-<pin name="AVCC12_2" x="-27.94" y="55.88" length="middle" rot="R270"/>
-<pin name="P0_RX0N" x="-30.48" y="55.88" length="middle" rot="R270"/>
-<pin name="P0_RX0P" x="-33.02" y="55.88" length="middle" rot="R270"/>
-<pin name="AVCC33" x="-35.56" y="55.88" length="middle" rot="R270"/>
-<pin name="P0_RX1N" x="-38.1" y="55.88" length="middle" rot="R270"/>
-<pin name="P0_RX1P" x="-40.64" y="55.88" length="middle" rot="R270"/>
-<pin name="AVCC12_3" x="-43.18" y="55.88" length="middle" rot="R270"/>
-<pin name="P0_RX2N" x="-45.72" y="55.88" length="middle" rot="R270"/>
-<pin name="P0_RX2P" x="-48.26" y="55.88" length="middle" rot="R270"/>
-<wire x1="-55.88" y1="50.8" x2="50.8" y2="50.8" width="0.254" layer="94"/>
-<wire x1="50.8" y1="50.8" x2="50.8" y2="-55.88" width="0.254" layer="94"/>
-<wire x1="50.8" y1="-55.88" x2="-55.88" y2="-55.88" width="0.254" layer="94"/>
-<wire x1="-55.88" y1="-55.88" x2="-55.88" y2="50.8" width="0.254" layer="94"/>
+<pin name="GPIO5" x="58.42" y="-45.72" length="middle" rot="R180"/>
+<pin name="VDD_USB" x="58.42" y="-43.18" length="middle" rot="R180"/>
+<pin name="DM0" x="58.42" y="-40.64" length="middle" rot="R180"/>
+<pin name="DP0" x="58.42" y="-38.1" length="middle" rot="R180"/>
+<pin name="DP1" x="58.42" y="-35.56" length="middle" rot="R180"/>
+<pin name="DM1" x="58.42" y="-33.02" length="middle" rot="R180"/>
+<pin name="VDD_USB_2" x="58.42" y="-30.48" length="middle" rot="R180"/>
+<pin name="IVDD_4" x="58.42" y="-27.94" length="middle" rot="R180"/>
+<pin name="VDX" x="58.42" y="-25.4" length="middle" rot="R180"/>
+<pin name="VD0" x="58.42" y="-22.86" length="middle" rot="R180"/>
+<pin name="VD1" x="58.42" y="-20.32" length="middle" rot="R180"/>
+<pin name="VD2" x="58.42" y="-17.78" length="middle" rot="R180"/>
+<pin name="VD3" x="58.42" y="-15.24" length="middle" rot="R180"/>
+<pin name="VD4" x="58.42" y="-12.7" length="middle" rot="R180"/>
+<pin name="VD5" x="58.42" y="-10.16" length="middle" rot="R180"/>
+<pin name="VOVDD" x="58.42" y="-7.62" length="middle" rot="R180"/>
+<pin name="VD6" x="58.42" y="-5.08" length="middle" rot="R180"/>
+<pin name="VD7" x="58.42" y="-2.54" length="middle" rot="R180"/>
+<pin name="VD8" x="58.42" y="0" length="middle" rot="R180"/>
+<pin name="VD9" x="58.42" y="2.54" length="middle" rot="R180"/>
+<pin name="VD10" x="58.42" y="5.08" length="middle" rot="R180"/>
+<pin name="VD11" x="58.42" y="7.62" length="middle" rot="R180"/>
+<pin name="VD12" x="58.42" y="10.16" length="middle" rot="R180"/>
+<pin name="VD13" x="58.42" y="12.7" length="middle" rot="R180"/>
+<pin name="VD14" x="58.42" y="15.24" length="middle" rot="R180"/>
+<pin name="VD15" x="58.42" y="17.78" length="middle" rot="R180"/>
+<pin name="VD16" x="58.42" y="20.32" length="middle" rot="R180"/>
+<pin name="VD17" x="58.42" y="22.86" length="middle" rot="R180"/>
+<pin name="VOVDD_2" x="58.42" y="25.4" length="middle" rot="R180"/>
+<pin name="VD18" x="58.42" y="27.94" length="middle" rot="R180"/>
+<pin name="VD19" x="58.42" y="30.48" length="middle" rot="R180"/>
+<pin name="VD20" x="58.42" y="33.02" length="middle" rot="R180"/>
+<pin name="VD21" x="58.42" y="35.56" length="middle" rot="R180"/>
+<pin name="VD22" x="58.42" y="38.1" length="middle" rot="R180"/>
+<pin name="VD23" x="58.42" y="40.64" length="middle" rot="R180"/>
+<pin name="VOVDD_3" x="58.42" y="43.18" length="middle" rot="R180"/>
+<pin name="VSYNC" x="38.1" y="58.42" length="middle" rot="R270"/>
+<pin name="HSYNC" x="35.56" y="58.42" length="middle" rot="R270"/>
+<pin name="PMCLK" x="33.02" y="58.42" length="middle" rot="R270"/>
+<pin name="DE" x="30.48" y="58.42" length="middle" rot="R270"/>
+<pin name="IVDD_5" x="27.94" y="58.42" length="middle" rot="R270"/>
+<pin name="ZD3" x="25.4" y="58.42" length="middle" rot="R270"/>
+<pin name="ZD2" x="22.86" y="58.42" length="middle" rot="R270"/>
+<pin name="ZD1" x="20.32" y="58.42" length="middle" rot="R270"/>
+<pin name="ZD0" x="17.78" y="58.42" length="middle" rot="R270"/>
+<pin name="ZCLK" x="15.24" y="58.42" length="middle" rot="R270"/>
+<pin name="ZWS" x="12.7" y="58.42" length="middle" rot="R270"/>
+<pin name="RSTN" x="10.16" y="58.42" length="middle" rot="R270"/>
+<pin name="ENTEST" x="7.62" y="58.42" length="middle" rot="R270"/>
+<pin name="VOVDD_4" x="5.08" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO13" x="2.54" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO14" x="0" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO15" x="-2.54" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO16" x="-5.08" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO17" x="-7.62" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO18" x="-10.16" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO19" x="-12.7" y="58.42" length="middle" rot="R270"/>
+<pin name="IVDD_6" x="-15.24" y="58.42" length="middle" rot="R270"/>
+<pin name="DDCSDA0" x="-17.78" y="58.42" length="middle" rot="R270"/>
+<pin name="DDCSCL0" x="-20.32" y="58.42" length="middle" rot="R270"/>
+<pin name="R0PWR5V" x="-22.86" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RXCN" x="-25.4" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RXCP" x="-27.94" y="58.42" length="middle" rot="R270"/>
+<pin name="AVCC12_2" x="-30.48" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX0N" x="-33.02" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX0P" x="-35.56" y="58.42" length="middle" rot="R270"/>
+<pin name="AVCC33" x="-38.1" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX1N" x="-40.64" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX1P" x="-43.18" y="58.42" length="middle" rot="R270"/>
+<pin name="AVCC12_3" x="-45.72" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX2N" x="-48.26" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX2P" x="-50.8" y="58.42" length="middle" rot="R270"/>
+<wire x1="-63.5" y1="53.34" x2="53.34" y2="53.34" width="0.254" layer="94"/>
+<wire x1="53.34" y1="53.34" x2="53.34" y2="-55.88" width="0.254" layer="94"/>
+<wire x1="53.34" y1="-55.88" x2="-63.5" y2="-55.88" width="0.254" layer="94"/>
+<wire x1="-63.5" y1="-55.88" x2="-63.5" y2="53.34" width="0.254" layer="94"/>
+</symbol>
+<symbol name="HDMI_MOLEX">
+<wire x1="-38.1" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="-38.1" y2="0" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="0" x2="-38.1" y2="10.16" width="0.254" layer="94"/>
+<pin name="TMDS_CH2+" x="-35.56" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH2_GND" x="-33.02" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH2-" x="-30.48" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH1+" x="-27.94" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH1_GND" x="-25.4" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH1-" x="-22.86" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH0+" x="-20.32" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH0_GND" x="-17.78" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH0-" x="-15.24" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CLOCK+" x="-12.7" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CLOCK_GND" x="-10.16" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CLOCK-" x="-7.62" y="15.24" length="middle" rot="R270"/>
+<pin name="CEC" x="-5.08" y="15.24" length="middle" rot="R270"/>
+<pin name="NO_CHARGE" x="-2.54" y="15.24" length="middle" rot="R270"/>
+<pin name="DDC_SCL_CLK" x="0" y="15.24" length="middle" rot="R270"/>
+<pin name="DDC_SDA_DATA" x="2.54" y="15.24" length="middle" rot="R270"/>
+<pin name="DDC_CEC_GND" x="5.08" y="15.24" length="middle" rot="R270"/>
+<pin name="+5V" x="7.62" y="15.24" length="middle" rot="R270"/>
+<pin name="HOT_PLUG_DETECT" x="10.16" y="15.24" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2229,6 +2301,39 @@ COFDM SOC modulator</description>
 <connect gate="G$1" pin="ZD2" pad="115"/>
 <connect gate="G$1" pin="ZD3" pad="114"/>
 <connect gate="G$1" pin="ZWS" pad="119"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HDMI_MOLEX">
+<gates>
+<gate name="G$1" symbol="HDMI_MOLEX" x="12.7" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="HDMI_MOLEX">
+<connects>
+<connect gate="G$1" pin="+5V" pad="FID18"/>
+<connect gate="G$1" pin="CEC" pad="FID13"/>
+<connect gate="G$1" pin="DDC_CEC_GND" pad="FID17"/>
+<connect gate="G$1" pin="DDC_SCL_CLK" pad="FID15"/>
+<connect gate="G$1" pin="DDC_SDA_DATA" pad="FID16"/>
+<connect gate="G$1" pin="HOT_PLUG_DETECT" pad="FID19"/>
+<connect gate="G$1" pin="NO_CHARGE" pad="FID14"/>
+<connect gate="G$1" pin="TMDS_CH0+" pad="FID7"/>
+<connect gate="G$1" pin="TMDS_CH0-" pad="FID9"/>
+<connect gate="G$1" pin="TMDS_CH0_GND" pad="FID8"/>
+<connect gate="G$1" pin="TMDS_CH1+" pad="FID4"/>
+<connect gate="G$1" pin="TMDS_CH1-" pad="FID6"/>
+<connect gate="G$1" pin="TMDS_CH1_GND" pad="FID5"/>
+<connect gate="G$1" pin="TMDS_CH2+" pad="FID1"/>
+<connect gate="G$1" pin="TMDS_CH2-" pad="FID3"/>
+<connect gate="G$1" pin="TMDS_CH2_GND" pad="FID2"/>
+<connect gate="G$1" pin="TMDS_CLOCK+" pad="FID10"/>
+<connect gate="G$1" pin="TMDS_CLOCK-" pad="FID12"/>
+<connect gate="G$1" pin="TMDS_CLOCK_GND" pad="FID11"/>
 </connects>
 <technologies>
 <technology name=""/>
