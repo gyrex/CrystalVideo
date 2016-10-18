@@ -1985,25 +1985,25 @@ Quad Flat No-Lead (QFN), 0.40 mm pitch; square, 16 pin X 16 pin, 8.00 mm L X 8.0
 <wire x1="12.7" y1="10.16" x2="12.7" y2="0" width="0.254" layer="94"/>
 <wire x1="12.7" y1="0" x2="-38.1" y2="0" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="0" x2="-38.1" y2="10.16" width="0.254" layer="94"/>
-<pin name="P$1" x="-35.56" y="15.24" length="middle" rot="R270"/>
-<pin name="P$2" x="-33.02" y="15.24" length="middle" rot="R270"/>
-<pin name="P$3" x="-30.48" y="15.24" length="middle" rot="R270"/>
-<pin name="P$4" x="-27.94" y="15.24" length="middle" rot="R270"/>
-<pin name="P$5" x="-25.4" y="15.24" length="middle" rot="R270"/>
-<pin name="P$6" x="-22.86" y="15.24" length="middle" rot="R270"/>
-<pin name="P$7" x="-20.32" y="15.24" length="middle" rot="R270"/>
-<pin name="P$8" x="-17.78" y="15.24" length="middle" rot="R270"/>
-<pin name="P$9" x="-15.24" y="15.24" length="middle" rot="R270"/>
-<pin name="P$10" x="-12.7" y="15.24" length="middle" rot="R270"/>
-<pin name="P$11" x="-10.16" y="15.24" length="middle" rot="R270"/>
-<pin name="P$12" x="-7.62" y="15.24" length="middle" rot="R270"/>
-<pin name="P$13" x="-5.08" y="15.24" length="middle" rot="R270"/>
-<pin name="P$14" x="-2.54" y="15.24" length="middle" rot="R270"/>
-<pin name="P$15" x="0" y="15.24" length="middle" rot="R270"/>
-<pin name="P$16" x="2.54" y="15.24" length="middle" rot="R270"/>
-<pin name="P$17" x="5.08" y="15.24" length="middle" rot="R270"/>
-<pin name="P$18" x="7.62" y="15.24" length="middle" rot="R270"/>
-<pin name="P$19" x="10.16" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH2+" x="-35.56" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH2_GND" x="-33.02" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH2-" x="-30.48" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH1+" x="-27.94" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH1_GND" x="-25.4" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH1-" x="-22.86" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH0+" x="-20.32" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH0_GND" x="-17.78" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CH0-" x="-15.24" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CLOCK+" x="-12.7" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CLOCK_GND" x="-10.16" y="15.24" length="middle" rot="R270"/>
+<pin name="TMDS_CLOCK-" x="-7.62" y="15.24" length="middle" rot="R270"/>
+<pin name="CEC" x="-5.08" y="15.24" length="middle" rot="R270"/>
+<pin name="NO_CHARGE" x="-2.54" y="15.24" length="middle" rot="R270"/>
+<pin name="DDC_SCL_CLK" x="0" y="15.24" length="middle" rot="R270"/>
+<pin name="DDC_SDA_DATA" x="2.54" y="15.24" length="middle" rot="R270"/>
+<pin name="DDC_CEC_GND" x="5.08" y="15.24" length="middle" rot="R270"/>
+<pin name="+5V" x="7.62" y="15.24" length="middle" rot="R270"/>
+<pin name="HOT_PLUG_DETECT" x="10.16" y="15.24" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2151,6 +2151,7 @@ COFDM SOC modulator</description>
 </devices>
 </deviceset>
 <deviceset name="IT9919">
+<description>ITE IT9199-N H.264 Encoder SOC</description>
 <gates>
 <gate name="G$1" symbol="IT9919" x="0" y="0"/>
 </gates>
@@ -2315,25 +2316,25 @@ COFDM SOC modulator</description>
 <devices>
 <device name="" package="HDMI_MOLEX">
 <connects>
-<connect gate="G$1" pin="P$1" pad="FID1"/>
-<connect gate="G$1" pin="P$10" pad="FID10"/>
-<connect gate="G$1" pin="P$11" pad="FID11"/>
-<connect gate="G$1" pin="P$12" pad="FID12"/>
-<connect gate="G$1" pin="P$13" pad="FID13"/>
-<connect gate="G$1" pin="P$14" pad="FID14"/>
-<connect gate="G$1" pin="P$15" pad="FID15"/>
-<connect gate="G$1" pin="P$16" pad="FID16"/>
-<connect gate="G$1" pin="P$17" pad="FID17"/>
-<connect gate="G$1" pin="P$18" pad="FID18"/>
-<connect gate="G$1" pin="P$19" pad="FID19"/>
-<connect gate="G$1" pin="P$2" pad="FID2"/>
-<connect gate="G$1" pin="P$3" pad="FID3"/>
-<connect gate="G$1" pin="P$4" pad="FID4"/>
-<connect gate="G$1" pin="P$5" pad="FID5"/>
-<connect gate="G$1" pin="P$6" pad="FID6"/>
-<connect gate="G$1" pin="P$7" pad="FID7"/>
-<connect gate="G$1" pin="P$8" pad="FID8"/>
-<connect gate="G$1" pin="P$9" pad="FID9"/>
+<connect gate="G$1" pin="+5V" pad="FID18"/>
+<connect gate="G$1" pin="CEC" pad="FID13"/>
+<connect gate="G$1" pin="DDC_CEC_GND" pad="FID17"/>
+<connect gate="G$1" pin="DDC_SCL_CLK" pad="FID15"/>
+<connect gate="G$1" pin="DDC_SDA_DATA" pad="FID16"/>
+<connect gate="G$1" pin="HOT_PLUG_DETECT" pad="FID19"/>
+<connect gate="G$1" pin="NO_CHARGE" pad="FID14"/>
+<connect gate="G$1" pin="TMDS_CH0+" pad="FID7"/>
+<connect gate="G$1" pin="TMDS_CH0-" pad="FID9"/>
+<connect gate="G$1" pin="TMDS_CH0_GND" pad="FID8"/>
+<connect gate="G$1" pin="TMDS_CH1+" pad="FID4"/>
+<connect gate="G$1" pin="TMDS_CH1-" pad="FID6"/>
+<connect gate="G$1" pin="TMDS_CH1_GND" pad="FID5"/>
+<connect gate="G$1" pin="TMDS_CH2+" pad="FID1"/>
+<connect gate="G$1" pin="TMDS_CH2-" pad="FID3"/>
+<connect gate="G$1" pin="TMDS_CH2_GND" pad="FID2"/>
+<connect gate="G$1" pin="TMDS_CLOCK+" pad="FID10"/>
+<connect gate="G$1" pin="TMDS_CLOCK-" pad="FID12"/>
+<connect gate="G$1" pin="TMDS_CLOCK_GND" pad="FID11"/>
 </connects>
 <technologies>
 <technology name=""/>

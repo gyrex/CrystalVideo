@@ -1831,154 +1831,155 @@ Quad Flat No-Lead (QFN), 0.40 mm pitch; square, 16 pin X 16 pin, 8.00 mm L X 8.0
 <text x="-2.54" y="0" size="1.778" layer="94">IT9133</text>
 </symbol>
 <symbol name="IT9919">
-<pin name="AVCC12" x="-68.58" y="40.64" length="middle"/>
-<pin name="PVCC33" x="-68.58" y="38.1" length="middle"/>
-<pin name="APVDD12" x="-68.58" y="35.56" length="middle"/>
-<pin name="XTALOUT" x="-68.58" y="33.02" length="middle"/>
-<pin name="XTALIN" x="-68.58" y="30.48" length="middle"/>
-<pin name="XTALVD33" x="-68.58" y="27.94" length="middle"/>
-<pin name="RAMVDD" x="-68.58" y="25.4" length="middle"/>
-<pin name="GOVDD" x="-68.58" y="22.86" length="middle"/>
-<pin name="GPIO48" x="-68.58" y="20.32" length="middle"/>
-<pin name="GPIO47" x="-68.58" y="17.78" length="middle"/>
-<pin name="GPIO46" x="-68.58" y="15.24" length="middle"/>
-<pin name="GPIO45" x="-68.58" y="12.7" length="middle"/>
-<pin name="GPIO44" x="-68.58" y="10.16" length="middle"/>
-<pin name="GPIO43" x="-68.58" y="7.62" length="middle"/>
-<pin name="GPIO42" x="-68.58" y="5.08" length="middle"/>
-<pin name="GPIO25" x="-68.58" y="2.54" length="middle"/>
-<pin name="IVDD" x="-68.58" y="0" length="middle"/>
-<pin name="MVREF" x="-68.58" y="-2.54" length="middle"/>
-<pin name="GPIO24" x="-68.58" y="-5.08" length="middle"/>
-<pin name="GPIO23" x="-68.58" y="-7.62" length="middle"/>
-<pin name="GPIO22" x="-68.58" y="-10.16" length="middle"/>
-<pin name="GPIO21" x="-68.58" y="-12.7" length="middle"/>
-<pin name="MOVDD" x="-68.58" y="-15.24" length="middle"/>
-<pin name="RAMVSS" x="-68.58" y="-17.78" length="middle"/>
-<pin name="GPIO20" x="-68.58" y="-20.32" length="middle"/>
-<pin name="AMCLK" x="-68.58" y="-22.86" length="middle"/>
-<pin name="RAMVDD_2" x="-68.58" y="-25.4" length="middle"/>
-<pin name="IVDD_2" x="-68.58" y="-27.94" length="middle"/>
-<pin name="RAMVSS_2" x="-68.58" y="-30.48" length="middle"/>
-<pin name="RAMVDD_3" x="-68.58" y="-33.02" length="middle"/>
-<pin name="MOVDD_2" x="-68.58" y="-35.56" length="middle"/>
-<pin name="RAMVSS_3" x="-68.58" y="-38.1" length="middle"/>
-<pin name="RAMVREF" x="-68.58" y="-40.64" length="middle"/>
-<pin name="RAMVDD_4" x="-68.58" y="-43.18" length="middle"/>
-<pin name="RAMVSS_4" x="-68.58" y="-45.72" length="middle"/>
-<pin name="MOVDD_3" x="-68.58" y="-48.26" length="middle"/>
-<pin name="RAMVDD_5" x="-48.26" y="-60.96" length="middle" rot="R90"/>
-<pin name="RAMVDD_6" x="-45.72" y="-60.96" length="middle" rot="R90"/>
-<pin name="RAMVDD_7" x="-43.18" y="-60.96" length="middle" rot="R90"/>
-<pin name="MVDD_DLL1.2" x="-40.64" y="-60.96" length="middle" rot="R90"/>
-<pin name="RAMVSS_5" x="-38.1" y="-60.96" length="middle" rot="R90"/>
-<pin name="MOVDD_4" x="-35.56" y="-60.96" length="middle" rot="R90"/>
-<pin name="MOVDD_5" x="-33.02" y="-60.96" length="middle" rot="R90"/>
-<pin name="RAMVSS_6" x="-30.48" y="-60.96" length="middle" rot="R90"/>
-<pin name="RAMVSS_7" x="-27.94" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO12" x="-25.4" y="-60.96" length="middle" rot="R90"/>
-<pin name="MOVDD_6" x="-22.86" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO11" x="-20.32" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO10" x="-17.78" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO9" x="-15.24" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO8" x="-12.7" y="-60.96" length="middle" rot="R90"/>
-<pin name="MOVDD_7" x="-10.16" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO7" x="-7.62" y="-60.96" length="middle" rot="R90"/>
-<pin name="IVDD_3" x="-5.08" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO6" x="-2.54" y="-60.96" length="middle" rot="R90"/>
-<pin name="VDDAPLL1.2" x="0" y="-60.96" length="middle" rot="R90"/>
-<pin name="VDDAPLL1.2_2" x="2.54" y="-60.96" length="middle" rot="R90"/>
-<pin name="XIN" x="5.08" y="-60.96" length="middle" rot="R90"/>
-<pin name="GOVDD_2" x="7.62" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO33" x="10.16" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO32" x="12.7" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO31" x="15.24" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO30" x="17.78" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO29" x="20.32" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO28" x="22.86" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO27" x="25.4" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO0" x="27.94" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO1" x="30.48" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO2" x="33.02" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO3" x="35.56" y="-60.96" length="middle" rot="R90"/>
-<pin name="GOVDD_3" x="38.1" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO4" x="40.64" y="-60.96" length="middle" rot="R90"/>
-<pin name="GPIO5" x="58.42" y="-45.72" length="middle" rot="R180"/>
-<pin name="VDD_USB" x="58.42" y="-43.18" length="middle" rot="R180"/>
-<pin name="DM0" x="58.42" y="-40.64" length="middle" rot="R180"/>
-<pin name="DP0" x="58.42" y="-38.1" length="middle" rot="R180"/>
-<pin name="DP1" x="58.42" y="-35.56" length="middle" rot="R180"/>
-<pin name="DM1" x="58.42" y="-33.02" length="middle" rot="R180"/>
-<pin name="VDD_USB_2" x="58.42" y="-30.48" length="middle" rot="R180"/>
-<pin name="IVDD_4" x="58.42" y="-27.94" length="middle" rot="R180"/>
-<pin name="VDX" x="58.42" y="-25.4" length="middle" rot="R180"/>
-<pin name="VD0" x="58.42" y="-22.86" length="middle" rot="R180"/>
-<pin name="VD1" x="58.42" y="-20.32" length="middle" rot="R180"/>
-<pin name="VD2" x="58.42" y="-17.78" length="middle" rot="R180"/>
-<pin name="VD3" x="58.42" y="-15.24" length="middle" rot="R180"/>
-<pin name="VD4" x="58.42" y="-12.7" length="middle" rot="R180"/>
-<pin name="VD5" x="58.42" y="-10.16" length="middle" rot="R180"/>
-<pin name="VOVDD" x="58.42" y="-7.62" length="middle" rot="R180"/>
-<pin name="VD6" x="58.42" y="-5.08" length="middle" rot="R180"/>
-<pin name="VD7" x="58.42" y="-2.54" length="middle" rot="R180"/>
-<pin name="VD8" x="58.42" y="0" length="middle" rot="R180"/>
-<pin name="VD9" x="58.42" y="2.54" length="middle" rot="R180"/>
-<pin name="VD10" x="58.42" y="5.08" length="middle" rot="R180"/>
-<pin name="VD11" x="58.42" y="7.62" length="middle" rot="R180"/>
-<pin name="VD12" x="58.42" y="10.16" length="middle" rot="R180"/>
-<pin name="VD13" x="58.42" y="12.7" length="middle" rot="R180"/>
-<pin name="VD14" x="58.42" y="15.24" length="middle" rot="R180"/>
-<pin name="VD15" x="58.42" y="17.78" length="middle" rot="R180"/>
-<pin name="VD16" x="58.42" y="20.32" length="middle" rot="R180"/>
-<pin name="VD17" x="58.42" y="22.86" length="middle" rot="R180"/>
-<pin name="VOVDD_2" x="58.42" y="25.4" length="middle" rot="R180"/>
-<pin name="VD18" x="58.42" y="27.94" length="middle" rot="R180"/>
-<pin name="VD19" x="58.42" y="30.48" length="middle" rot="R180"/>
-<pin name="VD20" x="58.42" y="33.02" length="middle" rot="R180"/>
-<pin name="VD21" x="58.42" y="35.56" length="middle" rot="R180"/>
-<pin name="VD22" x="58.42" y="38.1" length="middle" rot="R180"/>
-<pin name="VD23" x="58.42" y="40.64" length="middle" rot="R180"/>
-<pin name="VOVDD_3" x="58.42" y="43.18" length="middle" rot="R180"/>
-<pin name="VSYNC" x="38.1" y="58.42" length="middle" rot="R270"/>
-<pin name="HSYNC" x="35.56" y="58.42" length="middle" rot="R270"/>
-<pin name="PMCLK" x="33.02" y="58.42" length="middle" rot="R270"/>
-<pin name="DE" x="30.48" y="58.42" length="middle" rot="R270"/>
-<pin name="IVDD_5" x="27.94" y="58.42" length="middle" rot="R270"/>
-<pin name="ZD3" x="25.4" y="58.42" length="middle" rot="R270"/>
-<pin name="ZD2" x="22.86" y="58.42" length="middle" rot="R270"/>
-<pin name="ZD1" x="20.32" y="58.42" length="middle" rot="R270"/>
-<pin name="ZD0" x="17.78" y="58.42" length="middle" rot="R270"/>
-<pin name="ZCLK" x="15.24" y="58.42" length="middle" rot="R270"/>
-<pin name="ZWS" x="12.7" y="58.42" length="middle" rot="R270"/>
-<pin name="RSTN" x="10.16" y="58.42" length="middle" rot="R270"/>
-<pin name="ENTEST" x="7.62" y="58.42" length="middle" rot="R270"/>
-<pin name="VOVDD_4" x="5.08" y="58.42" length="middle" rot="R270"/>
-<pin name="GPIO13" x="2.54" y="58.42" length="middle" rot="R270"/>
-<pin name="GPIO14" x="0" y="58.42" length="middle" rot="R270"/>
-<pin name="GPIO15" x="-2.54" y="58.42" length="middle" rot="R270"/>
-<pin name="GPIO16" x="-5.08" y="58.42" length="middle" rot="R270"/>
-<pin name="GPIO17" x="-7.62" y="58.42" length="middle" rot="R270"/>
-<pin name="GPIO18" x="-10.16" y="58.42" length="middle" rot="R270"/>
-<pin name="GPIO19" x="-12.7" y="58.42" length="middle" rot="R270"/>
-<pin name="IVDD_6" x="-15.24" y="58.42" length="middle" rot="R270"/>
-<pin name="DDCSDA0" x="-17.78" y="58.42" length="middle" rot="R270"/>
-<pin name="DDCSCL0" x="-20.32" y="58.42" length="middle" rot="R270"/>
-<pin name="R0PWR5V" x="-22.86" y="58.42" length="middle" rot="R270"/>
-<pin name="P0_RXCN" x="-25.4" y="58.42" length="middle" rot="R270"/>
-<pin name="P0_RXCP" x="-27.94" y="58.42" length="middle" rot="R270"/>
-<pin name="AVCC12_2" x="-30.48" y="58.42" length="middle" rot="R270"/>
-<pin name="P0_RX0N" x="-33.02" y="58.42" length="middle" rot="R270"/>
-<pin name="P0_RX0P" x="-35.56" y="58.42" length="middle" rot="R270"/>
-<pin name="AVCC33" x="-38.1" y="58.42" length="middle" rot="R270"/>
-<pin name="P0_RX1N" x="-40.64" y="58.42" length="middle" rot="R270"/>
-<pin name="P0_RX1P" x="-43.18" y="58.42" length="middle" rot="R270"/>
-<pin name="AVCC12_3" x="-45.72" y="58.42" length="middle" rot="R270"/>
-<pin name="P0_RX2N" x="-48.26" y="58.42" length="middle" rot="R270"/>
-<pin name="P0_RX2P" x="-50.8" y="58.42" length="middle" rot="R270"/>
-<wire x1="-63.5" y1="53.34" x2="53.34" y2="53.34" width="0.254" layer="94"/>
-<wire x1="53.34" y1="53.34" x2="53.34" y2="-55.88" width="0.254" layer="94"/>
-<wire x1="53.34" y1="-55.88" x2="-63.5" y2="-55.88" width="0.254" layer="94"/>
-<wire x1="-63.5" y1="-55.88" x2="-63.5" y2="53.34" width="0.254" layer="94"/>
+<pin name="AVCC12" x="-63.5" y="40.64" length="middle"/>
+<pin name="PVCC33" x="-63.5" y="38.1" length="middle"/>
+<pin name="APVDD12" x="-63.5" y="35.56" length="middle"/>
+<pin name="XTALOUT" x="-63.5" y="33.02" length="middle"/>
+<pin name="XTALIN" x="-63.5" y="30.48" length="middle"/>
+<pin name="XTALVD33" x="-63.5" y="27.94" length="middle"/>
+<pin name="RAMVDD" x="-63.5" y="25.4" length="middle"/>
+<pin name="GOVDD" x="-63.5" y="22.86" length="middle"/>
+<pin name="GPIO48" x="-63.5" y="20.32" length="middle"/>
+<pin name="GPIO47" x="-63.5" y="17.78" length="middle"/>
+<pin name="GPIO46" x="-63.5" y="15.24" length="middle"/>
+<pin name="GPIO45" x="-63.5" y="12.7" length="middle"/>
+<pin name="GPIO44" x="-63.5" y="10.16" length="middle"/>
+<pin name="GPIO43" x="-63.5" y="7.62" length="middle"/>
+<pin name="GPIO42" x="-63.5" y="5.08" length="middle"/>
+<pin name="GPIO25" x="-63.5" y="2.54" length="middle"/>
+<pin name="IVDD" x="-63.5" y="0" length="middle"/>
+<pin name="MVREF" x="-63.5" y="-2.54" length="middle"/>
+<pin name="GPIO24" x="-63.5" y="-5.08" length="middle"/>
+<pin name="GPIO23" x="-63.5" y="-7.62" length="middle"/>
+<pin name="GPIO22" x="-63.5" y="-10.16" length="middle"/>
+<pin name="GPIO21" x="-63.5" y="-12.7" length="middle"/>
+<pin name="MOVDD" x="-63.5" y="-15.24" length="middle"/>
+<pin name="RAMVSS" x="-63.5" y="-17.78" length="middle"/>
+<pin name="GPIO20" x="-63.5" y="-20.32" length="middle"/>
+<pin name="AMCLK" x="-63.5" y="-22.86" length="middle"/>
+<pin name="RAMVDD_2" x="-63.5" y="-25.4" length="middle"/>
+<pin name="IVDD_2" x="-63.5" y="-27.94" length="middle"/>
+<pin name="RAMVSS_2" x="-63.5" y="-30.48" length="middle"/>
+<pin name="RAMVDD_3" x="-63.5" y="-33.02" length="middle"/>
+<pin name="MOVDD_2" x="-63.5" y="-35.56" length="middle"/>
+<pin name="RAMVSS_3" x="-63.5" y="-38.1" length="middle"/>
+<pin name="RAMVREF" x="-63.5" y="-40.64" length="middle"/>
+<pin name="RAMVDD_4" x="-63.5" y="-43.18" length="middle"/>
+<pin name="RAMVSS_4" x="-63.5" y="-45.72" length="middle"/>
+<pin name="MOVDD_3" x="-63.5" y="-48.26" length="middle"/>
+<pin name="RAMVDD_5" x="-43.18" y="-60.96" length="middle" rot="R90"/>
+<pin name="RAMVDD_6" x="-40.64" y="-60.96" length="middle" rot="R90"/>
+<pin name="RAMVDD_7" x="-38.1" y="-60.96" length="middle" rot="R90"/>
+<pin name="MVDD_DLL1.2" x="-35.56" y="-60.96" length="middle" rot="R90"/>
+<pin name="RAMVSS_5" x="-33.02" y="-60.96" length="middle" rot="R90"/>
+<pin name="MOVDD_4" x="-30.48" y="-60.96" length="middle" rot="R90"/>
+<pin name="MOVDD_5" x="-27.94" y="-60.96" length="middle" rot="R90"/>
+<pin name="RAMVSS_6" x="-25.4" y="-60.96" length="middle" rot="R90"/>
+<pin name="RAMVSS_7" x="-22.86" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO12" x="-20.32" y="-60.96" length="middle" rot="R90"/>
+<pin name="MOVDD_6" x="-17.78" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO11" x="-15.24" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO10" x="-12.7" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO9" x="-10.16" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO8" x="-7.62" y="-60.96" length="middle" rot="R90"/>
+<pin name="MOVDD_7" x="-5.08" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO7" x="-2.54" y="-60.96" length="middle" rot="R90"/>
+<pin name="IVDD_3" x="0" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO6" x="2.54" y="-60.96" length="middle" rot="R90"/>
+<pin name="VDDAPLL1.2" x="5.08" y="-60.96" length="middle" rot="R90"/>
+<pin name="VDDAPLL1.2_2" x="7.62" y="-60.96" length="middle" rot="R90"/>
+<pin name="XIN" x="10.16" y="-60.96" length="middle" rot="R90"/>
+<pin name="GOVDD_2" x="12.7" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO33" x="15.24" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO32" x="17.78" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO31" x="20.32" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO30" x="22.86" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO29" x="25.4" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO28" x="27.94" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO27" x="30.48" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO0" x="33.02" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO1" x="35.56" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO2" x="38.1" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO3" x="40.64" y="-60.96" length="middle" rot="R90"/>
+<pin name="GOVDD_3" x="43.18" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO4" x="45.72" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO5" x="63.5" y="-45.72" length="middle" rot="R180"/>
+<pin name="VDD_USB" x="63.5" y="-43.18" length="middle" rot="R180"/>
+<pin name="DM0" x="63.5" y="-40.64" length="middle" rot="R180"/>
+<pin name="DP0" x="63.5" y="-38.1" length="middle" rot="R180"/>
+<pin name="DP1" x="63.5" y="-35.56" length="middle" rot="R180"/>
+<pin name="DM1" x="63.5" y="-33.02" length="middle" rot="R180"/>
+<pin name="VDD_USB_2" x="63.5" y="-30.48" length="middle" rot="R180"/>
+<pin name="IVDD_4" x="63.5" y="-27.94" length="middle" rot="R180"/>
+<pin name="VDX" x="63.5" y="-25.4" length="middle" rot="R180"/>
+<pin name="VD0" x="63.5" y="-22.86" length="middle" rot="R180"/>
+<pin name="VD1" x="63.5" y="-20.32" length="middle" rot="R180"/>
+<pin name="VD2" x="63.5" y="-17.78" length="middle" rot="R180"/>
+<pin name="VD3" x="63.5" y="-15.24" length="middle" rot="R180"/>
+<pin name="VD4" x="63.5" y="-12.7" length="middle" rot="R180"/>
+<pin name="VD5" x="63.5" y="-10.16" length="middle" rot="R180"/>
+<pin name="VOVDD" x="63.5" y="-7.62" length="middle" rot="R180"/>
+<pin name="VD6" x="63.5" y="-5.08" length="middle" rot="R180"/>
+<pin name="VD7" x="63.5" y="-2.54" length="middle" rot="R180"/>
+<pin name="VD8" x="63.5" y="0" length="middle" rot="R180"/>
+<pin name="VD9" x="63.5" y="2.54" length="middle" rot="R180"/>
+<pin name="VD10" x="63.5" y="5.08" length="middle" rot="R180"/>
+<pin name="VD11" x="63.5" y="7.62" length="middle" rot="R180"/>
+<pin name="VD12" x="63.5" y="10.16" length="middle" rot="R180"/>
+<pin name="VD13" x="63.5" y="12.7" length="middle" rot="R180"/>
+<pin name="VD14" x="63.5" y="15.24" length="middle" rot="R180"/>
+<pin name="VD15" x="63.5" y="17.78" length="middle" rot="R180"/>
+<pin name="VD16" x="63.5" y="20.32" length="middle" rot="R180"/>
+<pin name="VD17" x="63.5" y="22.86" length="middle" rot="R180"/>
+<pin name="VOVDD_2" x="63.5" y="25.4" length="middle" rot="R180"/>
+<pin name="VD18" x="63.5" y="27.94" length="middle" rot="R180"/>
+<pin name="VD19" x="63.5" y="30.48" length="middle" rot="R180"/>
+<pin name="VD20" x="63.5" y="33.02" length="middle" rot="R180"/>
+<pin name="VD21" x="63.5" y="35.56" length="middle" rot="R180"/>
+<pin name="VD22" x="63.5" y="38.1" length="middle" rot="R180"/>
+<pin name="VD23" x="63.5" y="40.64" length="middle" rot="R180"/>
+<pin name="VOVDD_3" x="63.5" y="43.18" length="middle" rot="R180"/>
+<pin name="VSYNC" x="43.18" y="58.42" length="middle" rot="R270"/>
+<pin name="HSYNC" x="40.64" y="58.42" length="middle" rot="R270"/>
+<pin name="PMCLK" x="38.1" y="58.42" length="middle" rot="R270"/>
+<pin name="DE" x="35.56" y="58.42" length="middle" rot="R270"/>
+<pin name="IVDD_5" x="33.02" y="58.42" length="middle" rot="R270"/>
+<pin name="ZD3" x="30.48" y="58.42" length="middle" rot="R270"/>
+<pin name="ZD2" x="27.94" y="58.42" length="middle" rot="R270"/>
+<pin name="ZD1" x="25.4" y="58.42" length="middle" rot="R270"/>
+<pin name="ZD0" x="22.86" y="58.42" length="middle" rot="R270"/>
+<pin name="ZCLK" x="20.32" y="58.42" length="middle" rot="R270"/>
+<pin name="ZWS" x="17.78" y="58.42" length="middle" rot="R270"/>
+<pin name="RSTN" x="15.24" y="58.42" length="middle" rot="R270"/>
+<pin name="ENTEST" x="12.7" y="58.42" length="middle" rot="R270"/>
+<pin name="VOVDD_4" x="10.16" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO13" x="7.62" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO14" x="5.08" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO15" x="2.54" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO16" x="0" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO17" x="-2.54" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO18" x="-5.08" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO19" x="-7.62" y="58.42" length="middle" rot="R270"/>
+<pin name="IVDD_6" x="-10.16" y="58.42" length="middle" rot="R270"/>
+<pin name="DDCSDA0" x="-12.7" y="58.42" length="middle" rot="R270"/>
+<pin name="DDCSCL0" x="-15.24" y="58.42" length="middle" rot="R270"/>
+<pin name="R0PWR5V" x="-17.78" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RXCN" x="-20.32" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RXCP" x="-22.86" y="58.42" length="middle" rot="R270"/>
+<pin name="AVCC12_2" x="-25.4" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX0N" x="-27.94" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX0P" x="-30.48" y="58.42" length="middle" rot="R270"/>
+<pin name="AVCC33" x="-33.02" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX1N" x="-35.56" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX1P" x="-38.1" y="58.42" length="middle" rot="R270"/>
+<pin name="AVCC12_3" x="-40.64" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX2N" x="-43.18" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX2P" x="-45.72" y="58.42" length="middle" rot="R270"/>
+<wire x1="-58.42" y1="53.34" x2="58.42" y2="53.34" width="0.254" layer="94"/>
+<wire x1="58.42" y1="53.34" x2="58.42" y2="-55.88" width="0.254" layer="94"/>
+<wire x1="58.42" y1="-55.88" x2="-58.42" y2="-55.88" width="0.254" layer="94"/>
+<wire x1="-58.42" y1="-55.88" x2="-58.42" y2="53.34" width="0.254" layer="94"/>
+<text x="-2.54" y="0" size="1.778" layer="94">IT9919-N</text>
 </symbol>
 <symbol name="HDMI_MOLEX">
 <wire x1="-38.1" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
@@ -2151,6 +2152,7 @@ COFDM SOC modulator</description>
 </devices>
 </deviceset>
 <deviceset name="IT9919">
+<description>ITE IT9199-N H.264 Encoder SOC</description>
 <gates>
 <gate name="G$1" symbol="IT9919" x="0" y="0"/>
 </gates>

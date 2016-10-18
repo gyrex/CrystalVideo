@@ -1426,6 +1426,39 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="supply1">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+ GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+ Please keep in mind, that these devices are necessary for the
+ automatic wiring of the supply signals.&lt;p&gt;
+ The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+ In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="GND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1438,6 +1471,7 @@
 <parts>
 <part name="U$1" library="CrystalVideo" deviceset="HDMI_MOLEX" device=""/>
 <part name="U$2" library="CrystalVideo" deviceset="IT9919" device=""/>
+<part name="GND1" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1446,6 +1480,7 @@
 <instances>
 <instance part="U$1" gate="G$1" x="12.7" y="139.7" rot="MR180"/>
 <instance part="U$2" gate="G$1" x="2.54" y="10.16"/>
+<instance part="GND1" gate="1" x="-55.88" y="121.92" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -1529,6 +1564,48 @@
 <pinref part="U$2" gate="G$1" pin="R0PWR5V"/>
 <wire x1="22.86" y1="99.06" x2="-20.32" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="99.06" x2="-20.32" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="TMDS_CH2_GND"/>
+<wire x1="-53.34" y1="121.92" x2="-20.32" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="121.92" x2="-20.32" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="TMDS_CH1_GND"/>
+<wire x1="-20.32" y1="121.92" x2="-12.7" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="121.92" x2="-12.7" y2="124.46" width="0.1524" layer="91"/>
+<junction x="-20.32" y="121.92"/>
+<pinref part="U$1" gate="G$1" pin="TMDS_CH0_GND"/>
+<wire x1="-12.7" y1="121.92" x2="-5.08" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="121.92" x2="-5.08" y2="124.46" width="0.1524" layer="91"/>
+<junction x="-12.7" y="121.92"/>
+<pinref part="U$1" gate="G$1" pin="TMDS_CLOCK_GND"/>
+<wire x1="-5.08" y1="121.92" x2="2.54" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="121.92" x2="2.54" y2="124.46" width="0.1524" layer="91"/>
+<junction x="-5.08" y="121.92"/>
+<pinref part="U$1" gate="G$1" pin="DDC_CEC_GND"/>
+<wire x1="2.54" y1="121.92" x2="17.78" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="121.92" x2="17.78" y2="124.46" width="0.1524" layer="91"/>
+<junction x="2.54" y="121.92"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="DDC_SCL_CLK"/>
+<wire x1="12.7" y1="124.46" x2="12.7" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="DDCSCL0"/>
+<wire x1="12.7" y1="96.52" x2="-17.78" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="96.52" x2="-17.78" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="DDC_SDA_DATA"/>
+<wire x1="15.24" y1="124.46" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="DDCSDA0"/>
+<wire x1="15.24" y1="93.98" x2="-15.24" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="93.98" x2="-15.24" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

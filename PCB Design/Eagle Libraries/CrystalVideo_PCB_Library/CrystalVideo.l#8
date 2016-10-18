@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1784,154 +1784,154 @@ Quad Flat No-Lead (QFN), 0.40 mm pitch; square, 16 pin X 16 pin, 8.00 mm L X 8.0
 <text x="-2.54" y="0" size="1.778" layer="94">IT9133</text>
 </symbol>
 <symbol name="IT9919">
-<pin name="P$1" x="-60.96" y="40.64" length="middle"/>
-<pin name="P$2" x="-60.96" y="38.1" length="middle"/>
-<pin name="P$3" x="-60.96" y="35.56" length="middle"/>
-<pin name="P$4" x="-60.96" y="33.02" length="middle"/>
-<pin name="P$5" x="-60.96" y="30.48" length="middle"/>
-<pin name="P$6" x="-60.96" y="27.94" length="middle"/>
-<pin name="P$7" x="-60.96" y="25.4" length="middle"/>
-<pin name="P$8" x="-60.96" y="22.86" length="middle"/>
-<pin name="P$9" x="-60.96" y="20.32" length="middle"/>
-<pin name="P$10" x="-60.96" y="17.78" length="middle"/>
-<pin name="P$11" x="-60.96" y="15.24" length="middle"/>
-<pin name="P$12" x="-60.96" y="12.7" length="middle"/>
-<pin name="P$13" x="-60.96" y="10.16" length="middle"/>
-<pin name="P$14" x="-60.96" y="7.62" length="middle"/>
-<pin name="P$15" x="-60.96" y="5.08" length="middle"/>
-<pin name="P$16" x="-60.96" y="2.54" length="middle"/>
-<pin name="P$17" x="-60.96" y="0" length="middle"/>
-<pin name="P$18" x="-60.96" y="-2.54" length="middle"/>
-<pin name="P$19" x="-60.96" y="-5.08" length="middle"/>
-<pin name="P$20" x="-60.96" y="-7.62" length="middle"/>
-<pin name="P$21" x="-60.96" y="-10.16" length="middle"/>
-<pin name="P$22" x="-60.96" y="-12.7" length="middle"/>
-<pin name="P$23" x="-60.96" y="-15.24" length="middle"/>
-<pin name="P$24" x="-60.96" y="-17.78" length="middle"/>
-<pin name="P$25" x="-60.96" y="-20.32" length="middle"/>
-<pin name="P$26" x="-60.96" y="-22.86" length="middle"/>
-<pin name="P$27" x="-60.96" y="-25.4" length="middle"/>
-<pin name="P$28" x="-60.96" y="-27.94" length="middle"/>
-<pin name="P$29" x="-60.96" y="-30.48" length="middle"/>
-<pin name="P$30" x="-60.96" y="-33.02" length="middle"/>
-<pin name="P$31" x="-60.96" y="-35.56" length="middle"/>
-<pin name="P$32" x="-60.96" y="-38.1" length="middle"/>
-<pin name="P$33" x="-60.96" y="-40.64" length="middle"/>
-<pin name="P$34" x="-60.96" y="-43.18" length="middle"/>
-<pin name="P$35" x="-60.96" y="-45.72" length="middle"/>
-<pin name="P$36" x="-60.96" y="-48.26" length="middle"/>
-<pin name="P$37" x="-48.26" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$38" x="-45.72" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$39" x="-43.18" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$40" x="-40.64" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$41" x="-38.1" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$42" x="-35.56" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$43" x="-33.02" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$44" x="-30.48" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$45" x="-27.94" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$46" x="-25.4" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$47" x="-22.86" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$48" x="-20.32" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$49" x="-17.78" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$50" x="-15.24" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$51" x="-12.7" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$52" x="-10.16" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$53" x="-7.62" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$54" x="-5.08" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$55" x="-2.54" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$56" x="0" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$57" x="2.54" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$58" x="5.08" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$59" x="7.62" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$60" x="10.16" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$61" x="12.7" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$62" x="15.24" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$63" x="17.78" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$64" x="20.32" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$65" x="22.86" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$66" x="25.4" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$67" x="27.94" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$68" x="30.48" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$69" x="33.02" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$70" x="35.56" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$71" x="38.1" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$72" x="40.64" y="-60.96" length="middle" rot="R90"/>
-<pin name="P$73" x="55.88" y="-48.26" length="middle" rot="R180"/>
-<pin name="P$74" x="55.88" y="-45.72" length="middle" rot="R180"/>
-<pin name="P$75" x="55.88" y="-43.18" length="middle" rot="R180"/>
-<pin name="P$76" x="55.88" y="-40.64" length="middle" rot="R180"/>
-<pin name="P$77" x="55.88" y="-38.1" length="middle" rot="R180"/>
-<pin name="P$78" x="55.88" y="-35.56" length="middle" rot="R180"/>
-<pin name="P$79" x="55.88" y="-33.02" length="middle" rot="R180"/>
-<pin name="P$80" x="55.88" y="-30.48" length="middle" rot="R180"/>
-<pin name="P$81" x="55.88" y="-27.94" length="middle" rot="R180"/>
-<pin name="P$82" x="55.88" y="-25.4" length="middle" rot="R180"/>
-<pin name="P$83" x="55.88" y="-22.86" length="middle" rot="R180"/>
-<pin name="P$84" x="55.88" y="-20.32" length="middle" rot="R180"/>
-<pin name="P$85" x="55.88" y="-17.78" length="middle" rot="R180"/>
-<pin name="P$86" x="55.88" y="-15.24" length="middle" rot="R180"/>
-<pin name="P$87" x="55.88" y="-12.7" length="middle" rot="R180"/>
-<pin name="P$88" x="55.88" y="-10.16" length="middle" rot="R180"/>
-<pin name="P$89" x="55.88" y="-7.62" length="middle" rot="R180"/>
-<pin name="P$90" x="55.88" y="-5.08" length="middle" rot="R180"/>
-<pin name="P$91" x="55.88" y="-2.54" length="middle" rot="R180"/>
-<pin name="P$92" x="55.88" y="0" length="middle" rot="R180"/>
-<pin name="P$93" x="55.88" y="2.54" length="middle" rot="R180"/>
-<pin name="P$94" x="55.88" y="5.08" length="middle" rot="R180"/>
-<pin name="P$95" x="55.88" y="7.62" length="middle" rot="R180"/>
-<pin name="P$96" x="55.88" y="10.16" length="middle" rot="R180"/>
-<pin name="P$97" x="55.88" y="12.7" length="middle" rot="R180"/>
-<pin name="P$98" x="55.88" y="15.24" length="middle" rot="R180"/>
-<pin name="P$99" x="55.88" y="17.78" length="middle" rot="R180"/>
-<pin name="P$100" x="55.88" y="20.32" length="middle" rot="R180"/>
-<pin name="P$101" x="55.88" y="22.86" length="middle" rot="R180"/>
-<pin name="P$102" x="55.88" y="25.4" length="middle" rot="R180"/>
-<pin name="P$103" x="55.88" y="27.94" length="middle" rot="R180"/>
-<pin name="P$104" x="55.88" y="30.48" length="middle" rot="R180"/>
-<pin name="P$105" x="55.88" y="33.02" length="middle" rot="R180"/>
-<pin name="P$106" x="55.88" y="35.56" length="middle" rot="R180"/>
-<pin name="P$107" x="55.88" y="38.1" length="middle" rot="R180"/>
-<pin name="P$108" x="55.88" y="40.64" length="middle" rot="R180"/>
-<pin name="P$109" x="55.88" y="43.18" length="middle" rot="R180"/>
-<pin name="P$110" x="38.1" y="55.88" length="middle" rot="R270"/>
-<pin name="P$111" x="35.56" y="55.88" length="middle" rot="R270"/>
-<pin name="P$112" x="33.02" y="55.88" length="middle" rot="R270"/>
-<pin name="P$113" x="30.48" y="55.88" length="middle" rot="R270"/>
-<pin name="P$114" x="27.94" y="55.88" length="middle" rot="R270"/>
-<pin name="P$115" x="25.4" y="55.88" length="middle" rot="R270"/>
-<pin name="P$116" x="22.86" y="55.88" length="middle" rot="R270"/>
-<pin name="P$117" x="20.32" y="55.88" length="middle" rot="R270"/>
-<pin name="P$118" x="17.78" y="55.88" length="middle" rot="R270"/>
-<pin name="P$119" x="15.24" y="55.88" length="middle" rot="R270"/>
-<pin name="P$120" x="12.7" y="55.88" length="middle" rot="R270"/>
-<pin name="P$121" x="10.16" y="55.88" length="middle" rot="R270"/>
-<pin name="P$122" x="7.62" y="55.88" length="middle" rot="R270"/>
-<pin name="P$123" x="5.08" y="55.88" length="middle" rot="R270"/>
-<pin name="P$124" x="2.54" y="55.88" length="middle" rot="R270"/>
-<pin name="P$125" x="0" y="55.88" length="middle" rot="R270"/>
-<pin name="P$126" x="-2.54" y="55.88" length="middle" rot="R270"/>
-<pin name="P$127" x="-5.08" y="55.88" length="middle" rot="R270"/>
-<pin name="P$128" x="-7.62" y="55.88" length="middle" rot="R270"/>
-<pin name="P$129" x="-10.16" y="55.88" length="middle" rot="R270"/>
-<pin name="P$130" x="-12.7" y="55.88" length="middle" rot="R270"/>
-<pin name="P$131" x="-15.24" y="55.88" length="middle" rot="R270"/>
-<pin name="P$132" x="-17.78" y="55.88" length="middle" rot="R270"/>
-<pin name="P$133" x="-20.32" y="55.88" length="middle" rot="R270"/>
-<pin name="P$134" x="-22.86" y="55.88" length="middle" rot="R270"/>
-<pin name="P$135" x="-25.4" y="55.88" length="middle" rot="R270"/>
-<pin name="P$136" x="-27.94" y="55.88" length="middle" rot="R270"/>
-<pin name="P$137" x="-30.48" y="55.88" length="middle" rot="R270"/>
-<pin name="P$138" x="-33.02" y="55.88" length="middle" rot="R270"/>
-<pin name="P$139" x="-35.56" y="55.88" length="middle" rot="R270"/>
-<pin name="P$140" x="-38.1" y="55.88" length="middle" rot="R270"/>
-<pin name="P$141" x="-40.64" y="55.88" length="middle" rot="R270"/>
-<pin name="P$142" x="-43.18" y="55.88" length="middle" rot="R270"/>
-<pin name="P$143" x="-45.72" y="55.88" length="middle" rot="R270"/>
-<pin name="P$144" x="-48.26" y="55.88" length="middle" rot="R270"/>
-<wire x1="-55.88" y1="50.8" x2="50.8" y2="50.8" width="0.254" layer="94"/>
-<wire x1="50.8" y1="50.8" x2="50.8" y2="-55.88" width="0.254" layer="94"/>
-<wire x1="50.8" y1="-55.88" x2="-55.88" y2="-55.88" width="0.254" layer="94"/>
-<wire x1="-55.88" y1="-55.88" x2="-55.88" y2="50.8" width="0.254" layer="94"/>
+<pin name="AVCC12" x="-68.58" y="40.64" length="middle"/>
+<pin name="PVCC33" x="-68.58" y="38.1" length="middle"/>
+<pin name="APVDD12" x="-68.58" y="35.56" length="middle"/>
+<pin name="XTALOUT" x="-68.58" y="33.02" length="middle"/>
+<pin name="XTALIN" x="-68.58" y="30.48" length="middle"/>
+<pin name="XTALVD33" x="-68.58" y="27.94" length="middle"/>
+<pin name="RAMVDD" x="-68.58" y="25.4" length="middle"/>
+<pin name="GOVDD" x="-68.58" y="22.86" length="middle"/>
+<pin name="GPIO48" x="-68.58" y="20.32" length="middle"/>
+<pin name="GPIO47" x="-68.58" y="17.78" length="middle"/>
+<pin name="GPIO46" x="-68.58" y="15.24" length="middle"/>
+<pin name="GPIO45" x="-68.58" y="12.7" length="middle"/>
+<pin name="GPIO44" x="-68.58" y="10.16" length="middle"/>
+<pin name="GPIO43" x="-68.58" y="7.62" length="middle"/>
+<pin name="GPIO42" x="-68.58" y="5.08" length="middle"/>
+<pin name="GPIO25" x="-68.58" y="2.54" length="middle"/>
+<pin name="IVDD" x="-68.58" y="0" length="middle"/>
+<pin name="MVREF" x="-68.58" y="-2.54" length="middle"/>
+<pin name="GPIO24" x="-68.58" y="-5.08" length="middle"/>
+<pin name="GPIO23" x="-68.58" y="-7.62" length="middle"/>
+<pin name="GPIO22" x="-68.58" y="-10.16" length="middle"/>
+<pin name="GPIO21" x="-68.58" y="-12.7" length="middle"/>
+<pin name="MOVDD" x="-68.58" y="-15.24" length="middle"/>
+<pin name="RAMVSS" x="-68.58" y="-17.78" length="middle"/>
+<pin name="GPIO20" x="-68.58" y="-20.32" length="middle"/>
+<pin name="AMCLK" x="-68.58" y="-22.86" length="middle"/>
+<pin name="RAMVDD_2" x="-68.58" y="-25.4" length="middle"/>
+<pin name="IVDD_2" x="-68.58" y="-27.94" length="middle"/>
+<pin name="RAMVSS_2" x="-68.58" y="-30.48" length="middle"/>
+<pin name="RAMVDD_3" x="-68.58" y="-33.02" length="middle"/>
+<pin name="MOVDD_2" x="-68.58" y="-35.56" length="middle"/>
+<pin name="RAMVSS_3" x="-68.58" y="-38.1" length="middle"/>
+<pin name="RAMVREF" x="-68.58" y="-40.64" length="middle"/>
+<pin name="RAMVDD_4" x="-68.58" y="-43.18" length="middle"/>
+<pin name="RAMVSS_4" x="-68.58" y="-45.72" length="middle"/>
+<pin name="MOVDD_3" x="-68.58" y="-48.26" length="middle"/>
+<pin name="RAMVDD_5" x="-48.26" y="-60.96" length="middle" rot="R90"/>
+<pin name="RAMVDD_6" x="-45.72" y="-60.96" length="middle" rot="R90"/>
+<pin name="RAMVDD_7" x="-43.18" y="-60.96" length="middle" rot="R90"/>
+<pin name="MVDD_DLL1.2" x="-40.64" y="-60.96" length="middle" rot="R90"/>
+<pin name="RAMVSS_5" x="-38.1" y="-60.96" length="middle" rot="R90"/>
+<pin name="MOVDD_4" x="-35.56" y="-60.96" length="middle" rot="R90"/>
+<pin name="MOVDD_5" x="-33.02" y="-60.96" length="middle" rot="R90"/>
+<pin name="RAMVSS_6" x="-30.48" y="-60.96" length="middle" rot="R90"/>
+<pin name="RAMVSS_7" x="-27.94" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO12" x="-25.4" y="-60.96" length="middle" rot="R90"/>
+<pin name="MOVDD_6" x="-22.86" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO11" x="-20.32" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO10" x="-17.78" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO9" x="-15.24" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO8" x="-12.7" y="-60.96" length="middle" rot="R90"/>
+<pin name="MOVDD_7" x="-10.16" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO7" x="-7.62" y="-60.96" length="middle" rot="R90"/>
+<pin name="IVDD_3" x="-5.08" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO6" x="-2.54" y="-60.96" length="middle" rot="R90"/>
+<pin name="VDDAPLL1.2" x="0" y="-60.96" length="middle" rot="R90"/>
+<pin name="VDDAPLL1.2_2" x="2.54" y="-60.96" length="middle" rot="R90"/>
+<pin name="XIN" x="5.08" y="-60.96" length="middle" rot="R90"/>
+<pin name="GOVDD_2" x="7.62" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO33" x="10.16" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO32" x="12.7" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO31" x="15.24" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO30" x="17.78" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO29" x="20.32" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO28" x="22.86" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO27" x="25.4" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO0" x="27.94" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO1" x="30.48" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO2" x="33.02" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO3" x="35.56" y="-60.96" length="middle" rot="R90"/>
+<pin name="GOVDD_3" x="38.1" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO4" x="40.64" y="-60.96" length="middle" rot="R90"/>
+<pin name="GPIO5" x="58.42" y="-45.72" length="middle" rot="R180"/>
+<pin name="VDD_USB" x="58.42" y="-43.18" length="middle" rot="R180"/>
+<pin name="DM0" x="58.42" y="-40.64" length="middle" rot="R180"/>
+<pin name="DP0" x="58.42" y="-38.1" length="middle" rot="R180"/>
+<pin name="DP1" x="58.42" y="-35.56" length="middle" rot="R180"/>
+<pin name="DM1" x="58.42" y="-33.02" length="middle" rot="R180"/>
+<pin name="VDD_USB_2" x="58.42" y="-30.48" length="middle" rot="R180"/>
+<pin name="IVDD_4" x="58.42" y="-27.94" length="middle" rot="R180"/>
+<pin name="VDX" x="58.42" y="-25.4" length="middle" rot="R180"/>
+<pin name="VD0" x="58.42" y="-22.86" length="middle" rot="R180"/>
+<pin name="VD1" x="58.42" y="-20.32" length="middle" rot="R180"/>
+<pin name="VD2" x="58.42" y="-17.78" length="middle" rot="R180"/>
+<pin name="VD3" x="58.42" y="-15.24" length="middle" rot="R180"/>
+<pin name="VD4" x="58.42" y="-12.7" length="middle" rot="R180"/>
+<pin name="VD5" x="58.42" y="-10.16" length="middle" rot="R180"/>
+<pin name="VOVDD" x="58.42" y="-7.62" length="middle" rot="R180"/>
+<pin name="VD6" x="58.42" y="-5.08" length="middle" rot="R180"/>
+<pin name="VD7" x="58.42" y="-2.54" length="middle" rot="R180"/>
+<pin name="VD8" x="58.42" y="0" length="middle" rot="R180"/>
+<pin name="VD9" x="58.42" y="2.54" length="middle" rot="R180"/>
+<pin name="VD10" x="58.42" y="5.08" length="middle" rot="R180"/>
+<pin name="VD11" x="58.42" y="7.62" length="middle" rot="R180"/>
+<pin name="VD12" x="58.42" y="10.16" length="middle" rot="R180"/>
+<pin name="VD13" x="58.42" y="12.7" length="middle" rot="R180"/>
+<pin name="VD14" x="58.42" y="15.24" length="middle" rot="R180"/>
+<pin name="VD15" x="58.42" y="17.78" length="middle" rot="R180"/>
+<pin name="VD16" x="58.42" y="20.32" length="middle" rot="R180"/>
+<pin name="VD17" x="58.42" y="22.86" length="middle" rot="R180"/>
+<pin name="VOVDD_2" x="58.42" y="25.4" length="middle" rot="R180"/>
+<pin name="VD18" x="58.42" y="27.94" length="middle" rot="R180"/>
+<pin name="VD19" x="58.42" y="30.48" length="middle" rot="R180"/>
+<pin name="VD20" x="58.42" y="33.02" length="middle" rot="R180"/>
+<pin name="VD21" x="58.42" y="35.56" length="middle" rot="R180"/>
+<pin name="VD22" x="58.42" y="38.1" length="middle" rot="R180"/>
+<pin name="VD23" x="58.42" y="40.64" length="middle" rot="R180"/>
+<pin name="VOVDD_3" x="58.42" y="43.18" length="middle" rot="R180"/>
+<pin name="VSYNC" x="38.1" y="58.42" length="middle" rot="R270"/>
+<pin name="HSYNC" x="35.56" y="58.42" length="middle" rot="R270"/>
+<pin name="PMCLK" x="33.02" y="58.42" length="middle" rot="R270"/>
+<pin name="DE" x="30.48" y="58.42" length="middle" rot="R270"/>
+<pin name="IVDD_5" x="27.94" y="58.42" length="middle" rot="R270"/>
+<pin name="ZD3" x="25.4" y="58.42" length="middle" rot="R270"/>
+<pin name="ZD2" x="22.86" y="58.42" length="middle" rot="R270"/>
+<pin name="ZD1" x="20.32" y="58.42" length="middle" rot="R270"/>
+<pin name="ZD0" x="17.78" y="58.42" length="middle" rot="R270"/>
+<pin name="ZCLK" x="15.24" y="58.42" length="middle" rot="R270"/>
+<pin name="ZWS" x="12.7" y="58.42" length="middle" rot="R270"/>
+<pin name="RSTN" x="10.16" y="58.42" length="middle" rot="R270"/>
+<pin name="ENTEST" x="7.62" y="58.42" length="middle" rot="R270"/>
+<pin name="VOVDD_4" x="5.08" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO13" x="2.54" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO14" x="0" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO15" x="-2.54" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO16" x="-5.08" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO17" x="-7.62" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO18" x="-10.16" y="58.42" length="middle" rot="R270"/>
+<pin name="GPIO19" x="-12.7" y="58.42" length="middle" rot="R270"/>
+<pin name="IVDD_6" x="-15.24" y="58.42" length="middle" rot="R270"/>
+<pin name="DDCSDA0" x="-17.78" y="58.42" length="middle" rot="R270"/>
+<pin name="DDCSCL0" x="-20.32" y="58.42" length="middle" rot="R270"/>
+<pin name="R0PWR5V" x="-22.86" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RXCN" x="-25.4" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RXCP" x="-27.94" y="58.42" length="middle" rot="R270"/>
+<pin name="AVCC12_2" x="-30.48" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX0N" x="-33.02" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX0P" x="-35.56" y="58.42" length="middle" rot="R270"/>
+<pin name="AVCC33" x="-38.1" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX1N" x="-40.64" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX1P" x="-43.18" y="58.42" length="middle" rot="R270"/>
+<pin name="AVCC12_3" x="-45.72" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX2N" x="-48.26" y="58.42" length="middle" rot="R270"/>
+<pin name="P0_RX2P" x="-50.8" y="58.42" length="middle" rot="R270"/>
+<wire x1="-63.5" y1="53.34" x2="53.34" y2="53.34" width="0.254" layer="94"/>
+<wire x1="53.34" y1="53.34" x2="53.34" y2="-55.88" width="0.254" layer="94"/>
+<wire x1="53.34" y1="-55.88" x2="-63.5" y2="-55.88" width="0.254" layer="94"/>
+<wire x1="-63.5" y1="-55.88" x2="-63.5" y2="53.34" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2085,150 +2085,150 @@ COFDM SOC modulator</description>
 <devices>
 <device name="" package="QFP145P40_IT9910_8X8">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$10" pad="10"/>
-<connect gate="G$1" pin="P$100" pad="100"/>
-<connect gate="G$1" pin="P$101" pad="101"/>
-<connect gate="G$1" pin="P$102" pad="102"/>
-<connect gate="G$1" pin="P$103" pad="103"/>
-<connect gate="G$1" pin="P$104" pad="104"/>
-<connect gate="G$1" pin="P$105" pad="105"/>
-<connect gate="G$1" pin="P$106" pad="106"/>
-<connect gate="G$1" pin="P$107" pad="107"/>
-<connect gate="G$1" pin="P$108" pad="108"/>
-<connect gate="G$1" pin="P$109" pad="109"/>
-<connect gate="G$1" pin="P$11" pad="11"/>
-<connect gate="G$1" pin="P$110" pad="110"/>
-<connect gate="G$1" pin="P$111" pad="111"/>
-<connect gate="G$1" pin="P$112" pad="112"/>
-<connect gate="G$1" pin="P$113" pad="113"/>
-<connect gate="G$1" pin="P$114" pad="114"/>
-<connect gate="G$1" pin="P$115" pad="115"/>
-<connect gate="G$1" pin="P$116" pad="116"/>
-<connect gate="G$1" pin="P$117" pad="117"/>
-<connect gate="G$1" pin="P$118" pad="118"/>
-<connect gate="G$1" pin="P$119" pad="119"/>
-<connect gate="G$1" pin="P$12" pad="12"/>
-<connect gate="G$1" pin="P$120" pad="120"/>
-<connect gate="G$1" pin="P$121" pad="121"/>
-<connect gate="G$1" pin="P$122" pad="122"/>
-<connect gate="G$1" pin="P$123" pad="123"/>
-<connect gate="G$1" pin="P$124" pad="124"/>
-<connect gate="G$1" pin="P$125" pad="125"/>
-<connect gate="G$1" pin="P$126" pad="126"/>
-<connect gate="G$1" pin="P$127" pad="127"/>
-<connect gate="G$1" pin="P$128" pad="128"/>
-<connect gate="G$1" pin="P$129" pad="129"/>
-<connect gate="G$1" pin="P$13" pad="13"/>
-<connect gate="G$1" pin="P$130" pad="130"/>
-<connect gate="G$1" pin="P$131" pad="131"/>
-<connect gate="G$1" pin="P$132" pad="132"/>
-<connect gate="G$1" pin="P$133" pad="133"/>
-<connect gate="G$1" pin="P$134" pad="134"/>
-<connect gate="G$1" pin="P$135" pad="135"/>
-<connect gate="G$1" pin="P$136" pad="136"/>
-<connect gate="G$1" pin="P$137" pad="137"/>
-<connect gate="G$1" pin="P$138" pad="138"/>
-<connect gate="G$1" pin="P$139" pad="139"/>
-<connect gate="G$1" pin="P$14" pad="14"/>
-<connect gate="G$1" pin="P$140" pad="140"/>
-<connect gate="G$1" pin="P$141" pad="141"/>
-<connect gate="G$1" pin="P$142" pad="142"/>
-<connect gate="G$1" pin="P$143" pad="143"/>
-<connect gate="G$1" pin="P$144" pad="144"/>
-<connect gate="G$1" pin="P$15" pad="15"/>
-<connect gate="G$1" pin="P$16" pad="16"/>
-<connect gate="G$1" pin="P$17" pad="17"/>
-<connect gate="G$1" pin="P$18" pad="18"/>
-<connect gate="G$1" pin="P$19" pad="19"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-<connect gate="G$1" pin="P$20" pad="20"/>
-<connect gate="G$1" pin="P$21" pad="21"/>
-<connect gate="G$1" pin="P$22" pad="22"/>
-<connect gate="G$1" pin="P$23" pad="23"/>
-<connect gate="G$1" pin="P$24" pad="24"/>
-<connect gate="G$1" pin="P$25" pad="25"/>
-<connect gate="G$1" pin="P$26" pad="26"/>
-<connect gate="G$1" pin="P$27" pad="27"/>
-<connect gate="G$1" pin="P$28" pad="28"/>
-<connect gate="G$1" pin="P$29" pad="29"/>
-<connect gate="G$1" pin="P$3" pad="3"/>
-<connect gate="G$1" pin="P$30" pad="30"/>
-<connect gate="G$1" pin="P$31" pad="31"/>
-<connect gate="G$1" pin="P$32" pad="32"/>
-<connect gate="G$1" pin="P$33" pad="33"/>
-<connect gate="G$1" pin="P$34" pad="34"/>
-<connect gate="G$1" pin="P$35" pad="35"/>
-<connect gate="G$1" pin="P$36" pad="36"/>
-<connect gate="G$1" pin="P$37" pad="37"/>
-<connect gate="G$1" pin="P$38" pad="38"/>
-<connect gate="G$1" pin="P$39" pad="39"/>
-<connect gate="G$1" pin="P$4" pad="4"/>
-<connect gate="G$1" pin="P$40" pad="40"/>
-<connect gate="G$1" pin="P$41" pad="41"/>
-<connect gate="G$1" pin="P$42" pad="42"/>
-<connect gate="G$1" pin="P$43" pad="43"/>
-<connect gate="G$1" pin="P$44" pad="44"/>
-<connect gate="G$1" pin="P$45" pad="45"/>
-<connect gate="G$1" pin="P$46" pad="46"/>
-<connect gate="G$1" pin="P$47" pad="47"/>
-<connect gate="G$1" pin="P$48" pad="48"/>
-<connect gate="G$1" pin="P$49" pad="49"/>
-<connect gate="G$1" pin="P$5" pad="5"/>
-<connect gate="G$1" pin="P$50" pad="50"/>
-<connect gate="G$1" pin="P$51" pad="51"/>
-<connect gate="G$1" pin="P$52" pad="52"/>
-<connect gate="G$1" pin="P$53" pad="53"/>
-<connect gate="G$1" pin="P$54" pad="54"/>
-<connect gate="G$1" pin="P$55" pad="55"/>
-<connect gate="G$1" pin="P$56" pad="56"/>
-<connect gate="G$1" pin="P$57" pad="57"/>
-<connect gate="G$1" pin="P$58" pad="58"/>
-<connect gate="G$1" pin="P$59" pad="59"/>
-<connect gate="G$1" pin="P$6" pad="6"/>
-<connect gate="G$1" pin="P$60" pad="60"/>
-<connect gate="G$1" pin="P$61" pad="61"/>
-<connect gate="G$1" pin="P$62" pad="62"/>
-<connect gate="G$1" pin="P$63" pad="63"/>
-<connect gate="G$1" pin="P$64" pad="64"/>
-<connect gate="G$1" pin="P$65" pad="65"/>
-<connect gate="G$1" pin="P$66" pad="66"/>
-<connect gate="G$1" pin="P$67" pad="67"/>
-<connect gate="G$1" pin="P$68" pad="68"/>
-<connect gate="G$1" pin="P$69" pad="69"/>
-<connect gate="G$1" pin="P$7" pad="7"/>
-<connect gate="G$1" pin="P$70" pad="70"/>
-<connect gate="G$1" pin="P$71" pad="71"/>
-<connect gate="G$1" pin="P$72" pad="72"/>
-<connect gate="G$1" pin="P$73" pad="73"/>
-<connect gate="G$1" pin="P$74" pad="74"/>
-<connect gate="G$1" pin="P$75" pad="75"/>
-<connect gate="G$1" pin="P$76" pad="76"/>
-<connect gate="G$1" pin="P$77" pad="77"/>
-<connect gate="G$1" pin="P$78" pad="78"/>
-<connect gate="G$1" pin="P$79" pad="79"/>
-<connect gate="G$1" pin="P$8" pad="8"/>
-<connect gate="G$1" pin="P$80" pad="80"/>
-<connect gate="G$1" pin="P$81" pad="81"/>
-<connect gate="G$1" pin="P$82" pad="82"/>
-<connect gate="G$1" pin="P$83" pad="83"/>
-<connect gate="G$1" pin="P$84" pad="84"/>
-<connect gate="G$1" pin="P$85" pad="85"/>
-<connect gate="G$1" pin="P$86" pad="86"/>
-<connect gate="G$1" pin="P$87" pad="87"/>
-<connect gate="G$1" pin="P$88" pad="88"/>
-<connect gate="G$1" pin="P$89" pad="89"/>
-<connect gate="G$1" pin="P$9" pad="9"/>
-<connect gate="G$1" pin="P$90" pad="90"/>
-<connect gate="G$1" pin="P$91" pad="91"/>
-<connect gate="G$1" pin="P$92" pad="92"/>
-<connect gate="G$1" pin="P$93" pad="93"/>
-<connect gate="G$1" pin="P$94" pad="94"/>
-<connect gate="G$1" pin="P$95" pad="95"/>
-<connect gate="G$1" pin="P$96" pad="96"/>
-<connect gate="G$1" pin="P$97" pad="97"/>
-<connect gate="G$1" pin="P$98" pad="98"/>
-<connect gate="G$1" pin="P$99" pad="99"/>
+<connect gate="G$1" pin="AMCLK" pad="26"/>
+<connect gate="G$1" pin="APVDD12" pad="3"/>
+<connect gate="G$1" pin="AVCC12" pad="1"/>
+<connect gate="G$1" pin="AVCC12_2" pad="136"/>
+<connect gate="G$1" pin="AVCC12_3" pad="142"/>
+<connect gate="G$1" pin="AVCC33" pad="139"/>
+<connect gate="G$1" pin="DDCSCL0" pad="132"/>
+<connect gate="G$1" pin="DDCSDA0" pad="131"/>
+<connect gate="G$1" pin="DE" pad="112"/>
+<connect gate="G$1" pin="DM0" pad="75"/>
+<connect gate="G$1" pin="DM1" pad="78"/>
+<connect gate="G$1" pin="DP0" pad="76"/>
+<connect gate="G$1" pin="DP1" pad="77"/>
+<connect gate="G$1" pin="ENTEST" pad="121"/>
+<connect gate="G$1" pin="GOVDD" pad="8"/>
+<connect gate="G$1" pin="GOVDD_2" pad="59"/>
+<connect gate="G$1" pin="GOVDD_3" pad="71"/>
+<connect gate="G$1" pin="GPIO0" pad="67"/>
+<connect gate="G$1" pin="GPIO1" pad="68"/>
+<connect gate="G$1" pin="GPIO10" pad="49"/>
+<connect gate="G$1" pin="GPIO11" pad="48"/>
+<connect gate="G$1" pin="GPIO12" pad="46"/>
+<connect gate="G$1" pin="GPIO13" pad="123"/>
+<connect gate="G$1" pin="GPIO14" pad="124"/>
+<connect gate="G$1" pin="GPIO15" pad="125"/>
+<connect gate="G$1" pin="GPIO16" pad="126"/>
+<connect gate="G$1" pin="GPIO17" pad="127"/>
+<connect gate="G$1" pin="GPIO18" pad="128"/>
+<connect gate="G$1" pin="GPIO19" pad="129"/>
+<connect gate="G$1" pin="GPIO2" pad="69"/>
+<connect gate="G$1" pin="GPIO20" pad="25"/>
+<connect gate="G$1" pin="GPIO21" pad="22"/>
+<connect gate="G$1" pin="GPIO22" pad="21"/>
+<connect gate="G$1" pin="GPIO23" pad="20"/>
+<connect gate="G$1" pin="GPIO24" pad="19"/>
+<connect gate="G$1" pin="GPIO25" pad="16"/>
+<connect gate="G$1" pin="GPIO27" pad="66"/>
+<connect gate="G$1" pin="GPIO28" pad="65"/>
+<connect gate="G$1" pin="GPIO29" pad="64"/>
+<connect gate="G$1" pin="GPIO3" pad="70"/>
+<connect gate="G$1" pin="GPIO30" pad="63"/>
+<connect gate="G$1" pin="GPIO31" pad="62"/>
+<connect gate="G$1" pin="GPIO32" pad="61"/>
+<connect gate="G$1" pin="GPIO33" pad="60"/>
+<connect gate="G$1" pin="GPIO4" pad="72"/>
+<connect gate="G$1" pin="GPIO42" pad="15"/>
+<connect gate="G$1" pin="GPIO43" pad="14"/>
+<connect gate="G$1" pin="GPIO44" pad="13"/>
+<connect gate="G$1" pin="GPIO45" pad="12"/>
+<connect gate="G$1" pin="GPIO46" pad="11"/>
+<connect gate="G$1" pin="GPIO47" pad="10"/>
+<connect gate="G$1" pin="GPIO48" pad="9"/>
+<connect gate="G$1" pin="GPIO5" pad="73"/>
+<connect gate="G$1" pin="GPIO6" pad="55"/>
+<connect gate="G$1" pin="GPIO7" pad="53"/>
+<connect gate="G$1" pin="GPIO8" pad="51"/>
+<connect gate="G$1" pin="GPIO9" pad="50"/>
+<connect gate="G$1" pin="HSYNC" pad="110"/>
+<connect gate="G$1" pin="IVDD" pad="17"/>
+<connect gate="G$1" pin="IVDD_2" pad="28"/>
+<connect gate="G$1" pin="IVDD_3" pad="54"/>
+<connect gate="G$1" pin="IVDD_4" pad="80"/>
+<connect gate="G$1" pin="IVDD_5" pad="113"/>
+<connect gate="G$1" pin="IVDD_6" pad="130"/>
+<connect gate="G$1" pin="MOVDD" pad="23"/>
+<connect gate="G$1" pin="MOVDD_2" pad="31"/>
+<connect gate="G$1" pin="MOVDD_3" pad="36"/>
+<connect gate="G$1" pin="MOVDD_4" pad="42"/>
+<connect gate="G$1" pin="MOVDD_5" pad="43"/>
+<connect gate="G$1" pin="MOVDD_6" pad="47"/>
+<connect gate="G$1" pin="MOVDD_7" pad="52"/>
+<connect gate="G$1" pin="MVDD_DLL1.2" pad="40"/>
+<connect gate="G$1" pin="MVREF" pad="18"/>
+<connect gate="G$1" pin="P0_RX0N" pad="137"/>
+<connect gate="G$1" pin="P0_RX0P" pad="138"/>
+<connect gate="G$1" pin="P0_RX1N" pad="140"/>
+<connect gate="G$1" pin="P0_RX1P" pad="141"/>
+<connect gate="G$1" pin="P0_RX2N" pad="143"/>
+<connect gate="G$1" pin="P0_RX2P" pad="144"/>
+<connect gate="G$1" pin="P0_RXCN" pad="134"/>
+<connect gate="G$1" pin="P0_RXCP" pad="135"/>
+<connect gate="G$1" pin="PMCLK" pad="111"/>
+<connect gate="G$1" pin="PVCC33" pad="2"/>
+<connect gate="G$1" pin="R0PWR5V" pad="133"/>
+<connect gate="G$1" pin="RAMVDD" pad="7"/>
+<connect gate="G$1" pin="RAMVDD_2" pad="27"/>
+<connect gate="G$1" pin="RAMVDD_3" pad="30"/>
+<connect gate="G$1" pin="RAMVDD_4" pad="34"/>
+<connect gate="G$1" pin="RAMVDD_5" pad="37"/>
+<connect gate="G$1" pin="RAMVDD_6" pad="38"/>
+<connect gate="G$1" pin="RAMVDD_7" pad="39"/>
+<connect gate="G$1" pin="RAMVREF" pad="33"/>
+<connect gate="G$1" pin="RAMVSS" pad="24"/>
+<connect gate="G$1" pin="RAMVSS_2" pad="29"/>
+<connect gate="G$1" pin="RAMVSS_3" pad="32"/>
+<connect gate="G$1" pin="RAMVSS_4" pad="35"/>
+<connect gate="G$1" pin="RAMVSS_5" pad="41"/>
+<connect gate="G$1" pin="RAMVSS_6" pad="44"/>
+<connect gate="G$1" pin="RAMVSS_7" pad="45"/>
+<connect gate="G$1" pin="RSTN" pad="120"/>
+<connect gate="G$1" pin="VD0" pad="82"/>
+<connect gate="G$1" pin="VD1" pad="83"/>
+<connect gate="G$1" pin="VD10" pad="93"/>
+<connect gate="G$1" pin="VD11" pad="94"/>
+<connect gate="G$1" pin="VD12" pad="95"/>
+<connect gate="G$1" pin="VD13" pad="96"/>
+<connect gate="G$1" pin="VD14" pad="97"/>
+<connect gate="G$1" pin="VD15" pad="98"/>
+<connect gate="G$1" pin="VD16" pad="99"/>
+<connect gate="G$1" pin="VD17" pad="100"/>
+<connect gate="G$1" pin="VD18" pad="102"/>
+<connect gate="G$1" pin="VD19" pad="103"/>
+<connect gate="G$1" pin="VD2" pad="84"/>
+<connect gate="G$1" pin="VD20" pad="104"/>
+<connect gate="G$1" pin="VD21" pad="105"/>
+<connect gate="G$1" pin="VD22" pad="106"/>
+<connect gate="G$1" pin="VD23" pad="107"/>
+<connect gate="G$1" pin="VD3" pad="85"/>
+<connect gate="G$1" pin="VD4" pad="86"/>
+<connect gate="G$1" pin="VD5" pad="87"/>
+<connect gate="G$1" pin="VD6" pad="89"/>
+<connect gate="G$1" pin="VD7" pad="90"/>
+<connect gate="G$1" pin="VD8" pad="91"/>
+<connect gate="G$1" pin="VD9" pad="92"/>
+<connect gate="G$1" pin="VDDAPLL1.2" pad="56"/>
+<connect gate="G$1" pin="VDDAPLL1.2_2" pad="57"/>
+<connect gate="G$1" pin="VDD_USB" pad="74"/>
+<connect gate="G$1" pin="VDD_USB_2" pad="79"/>
+<connect gate="G$1" pin="VDX" pad="81"/>
+<connect gate="G$1" pin="VOVDD" pad="88"/>
+<connect gate="G$1" pin="VOVDD_2" pad="101"/>
+<connect gate="G$1" pin="VOVDD_3" pad="108"/>
+<connect gate="G$1" pin="VOVDD_4" pad="122"/>
+<connect gate="G$1" pin="VSYNC" pad="109"/>
+<connect gate="G$1" pin="XIN" pad="58"/>
+<connect gate="G$1" pin="XTALIN" pad="5"/>
+<connect gate="G$1" pin="XTALOUT" pad="4"/>
+<connect gate="G$1" pin="XTALVD33" pad="6"/>
+<connect gate="G$1" pin="ZCLK" pad="118"/>
+<connect gate="G$1" pin="ZD0" pad="117"/>
+<connect gate="G$1" pin="ZD1" pad="116"/>
+<connect gate="G$1" pin="ZD2" pad="115"/>
+<connect gate="G$1" pin="ZD3" pad="114"/>
+<connect gate="G$1" pin="ZWS" pad="119"/>
 </connects>
 <technologies>
 <technology name=""/>
